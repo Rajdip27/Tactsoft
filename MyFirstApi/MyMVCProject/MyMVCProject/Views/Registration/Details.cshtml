@@ -1,0 +1,49 @@
+﻿@model MyMVCProject.Models.Registration
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center text-success">Resignation Details</h1>
+<hr />
+
+<div>
+
+
+    <dl class="row  p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end ">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PatientName)
+
+        </dt>
+        <dd class="col-sm-10">
+            <label class="form-label">:</label>
+            @Html.DisplayFor(model => model.PatientName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class="col-sm-10">
+            <label class="form-label">:</label>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            <label class="form-label">:</label>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RegistrationDate)
+        </dt>
+        <dd class="col-sm-10">
+            <label class="form-label">:</label>
+            @Html.DisplayFor(model => model.RegistrationDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Edit</a> |
+    <a class="btn btn-warning" asp-action="Index">Back to List</a>
+</div>
