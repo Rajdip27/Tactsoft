@@ -9,6 +9,7 @@ builder.Services.AddControllersWithViews();
 //database
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Conn")));
 builder.Services.AddScoped<IStudent, StudentServices>();
+builder.Services.AddScoped<ICource, CourceServices>();
 var app = builder.Build();
 
 
