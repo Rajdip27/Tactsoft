@@ -11,6 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddScoped<IStudent, StudentServices>();
 builder.Services.AddScoped<ICource, CourceServices>();
 builder.Services.AddScoped<IFaculty, FacultyServices>();
+builder.Services.AddScoped<IEmployee, EmployeeServices>();
 var app = builder.Build();
 
 

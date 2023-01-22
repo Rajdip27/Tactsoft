@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Students_Mangmaent_With_Repostory_patten
+build_property.RootNamespace = Students_Mangmaent_With_Repostory_patten
+build_property.ProjectDir = E:\Tactsoft\Students_Mangmaent_With_Repostory_patten\Students_Mangmaent_With_Repostory_patten\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Tactsoft\Students_Mangmaent_With_Repostory_patten\Students_Mangmaent_With_Repostory_patten
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Cource/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Cource/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmNlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Cource/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmNlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Cource/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Cource/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Faculty/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Faculty/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Faculty/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Faculty/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Faculty/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Students_Mangmaent_With_Repostory_patten/Students_Mangmaent_With_Repostory_patten/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jyhpdl5m9d

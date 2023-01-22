@@ -41,6 +41,30 @@ namespace Students_Mangmaent_With_Repostory_patten.Data.Migrations
                     b.ToTable("Cources");
                 });
 
+            modelBuilder.Entity("Students_Mangmaent_With_Repostory_patten.Models.Employee", b =>
+                {
+                    b.Property<int>("EmployeeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EmployeeId"), 1L, 1);
+
+                    b.Property<double>("Basic")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Designation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmployeeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("EmployeeId");
+
+                    b.ToTable("Employees");
+                });
+
             modelBuilder.Entity("Students_Mangmaent_With_Repostory_patten.Models.Faculty", b =>
                 {
                     b.Property<int>("Id")
