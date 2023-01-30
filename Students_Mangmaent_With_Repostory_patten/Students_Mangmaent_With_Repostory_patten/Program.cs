@@ -12,6 +12,7 @@ builder.Services.AddScoped<IStudent, StudentServices>();
 builder.Services.AddScoped<ICource, CourceServices>();
 builder.Services.AddScoped<IFaculty, FacultyServices>();
 builder.Services.AddScoped<IEmployee, EmployeeServices>();
+builder.Services.AddScoped<ICustomer, CustomerServices>();
 var app = builder.Build();
 
 
