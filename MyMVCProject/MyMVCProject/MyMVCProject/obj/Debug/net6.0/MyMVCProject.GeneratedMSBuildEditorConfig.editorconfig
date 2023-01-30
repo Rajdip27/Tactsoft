@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyMVCProject
 build_property.RootNamespace = MyMVCProject
-build_property.ProjectDir = C:\Users\pc\Desktop\rhy\Rajdip\MyMVCProject\MyMVCProject\
+build_property.ProjectDir = E:\Tactsoft\MyMVCProject\MyMVCProject\MyMVCProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pc\Desktop\rhy\Rajdip\MyMVCProject\MyMVCProject
+build_property.MSBuildProjectDirectory = E:\Tactsoft\MyMVCProject\MyMVCProject\MyMVCProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Home/Index.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Home/Privacy.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Registration/Create.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Registration/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Registration/Delete.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Registration/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Registration/Details.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Registration/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Registration/Edit.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Registration/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Registration/Index.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Registration/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Shared/Error.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/_ViewImports.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/_ViewStart.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/rhy/Rajdip/MyMVCProject/MyMVCProject/Views/Shared/_Layout.cshtml]
+[E:/Tactsoft/MyMVCProject/MyMVCProject/MyMVCProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5lp8kddb5m

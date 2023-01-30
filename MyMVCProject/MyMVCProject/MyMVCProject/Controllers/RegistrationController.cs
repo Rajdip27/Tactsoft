@@ -2,21 +2,24 @@
 using Microsoft.EntityFrameworkCore;
 using MyMVCProject.DatabaseContext;
 using MyMVCProject.Models;
+using MyMVCProject.Serivce;
 
 namespace MyMVCProject.Controllers
 {
     public class RegistrationController : Controller
     {
-        private readonly ApplicationDbContext _dbContext;
-        public RegistrationController(ApplicationDbContext dbContext)
-        {
-            _dbContext = dbContext; 
 
-        }
-        public async Task <IActionResult> Index()
+        private readonly IRegistrion _registrion;
+        public RegistrationController(IRegistrion registrion )
         {
-            var Reg = await _dbContext.Registrations.ToListAsync();
-            return View(Reg);
+
+            _registrion = registrion;
+        }
+        [HttpGet]
+        public async Task <ActionResult<Registration>> Index()
+        {
+            
+            return View(await _registrion.GetAll());
         }
         [HttpGet]
         public async Task<IActionResult> Create()
@@ -29,8 +32,8 @@ namespace MyMVCProject.Controllers
         {
             try
             {
-                await _dbContext.Registrations.AddAsync(registration);
-                await _dbContext.SaveChangesAsync();
+                await _registrion.Create(registration);
+                await _registrion.Save();
                 return RedirectToAction(actionName: (nameof(Index)));
 
             }
@@ -44,11 +47,11 @@ namespace MyMVCProject.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
-            if (id == null || _dbContext.Registrations == null)
+            if (id == null )
             {
                 return NotFound();
             }
-            var Result = await _dbContext.Registrations.FindAsync(id);
+            var Result = await  _registrion.GetById(id);
             if (Result == null)
             {
                 return NotFound();
@@ -59,21 +62,21 @@ namespace MyMVCProject.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, Registration registration)
+        public async Task<IActionResult> Edit( Registration registration)
         {
-            if (id != registration.Id) { return NotFound(); }
-            _dbContext.Entry(registration).State = EntityState.Modified;
-            await _dbContext.SaveChangesAsync();
+            await _registrion.Update(registration);
+            await _registrion.Save();
             return RedirectToAction(actionName: (nameof(Index)));
         }
+        [HttpGet]
 
         public async Task<IActionResult> Details(int id)
         {
-            if (id == null || _dbContext.Registrations == null)
+            if (id == null )
             {
                 return NotFound();
             }
-            var Result = await _dbContext.Registrations.FindAsync(id);
+            var Result = await _registrion.GetById(id);
             if (Result == null)
             {
                 return NotFound();
@@ -82,13 +85,14 @@ namespace MyMVCProject.Controllers
             return View(Result);
 
         }
+        [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
-            if (id == null || _dbContext.Registrations == null)
+            if (id == null )
             {
                 return NotFound();
             }
-            var Result = await _dbContext.Registrations.FindAsync(id);
+            var Result = await _registrion.GetById(id); 
             if (Result == null)
             {
                 return NotFound();
@@ -98,12 +102,15 @@ namespace MyMVCProject.Controllers
 
         }
         [HttpPost]
-        public async Task<IActionResult> Delete(int id, Registration registration)
+        [ActionName("Delete")]
+        public async Task<IActionResult> DeleteConf(int id)
         {
-            if (id != registration.Id) { return NotFound(); }
-            _dbContext.Entry(registration).State = EntityState.Deleted;
-            await _dbContext.SaveChangesAsync();
+        
+            await _registrion.DeleteById(id);
+            await _registrion.Save();
             return RedirectToAction(actionName: (nameof(Index)));
+
+
         }
     }
 }

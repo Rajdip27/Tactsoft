@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MyMVCProject.DatabaseContext;
+using MyMVCProject.Serivce;
 
 var builder = WebApplication.CreateBuilder(args);
 //Database Connection//
@@ -7,6 +8,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IRegistrion,RegistrionSerivce>();
 
 var app = builder.Build();
 
