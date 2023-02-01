@@ -8,7 +8,8 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 //Database Connection//
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Conn")));
+//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Conn")));
+builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("Conn")));
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

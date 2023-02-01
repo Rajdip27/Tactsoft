@@ -9,7 +9,7 @@ namespace Students_Mangmaent_With_Repostory_patten.Services
         private readonly ApplicationDbContext _dbContext;
         public EmployeeServices(ApplicationDbContext dbContext)
         {
-            _dbContext = dbContext; 
+            _dbContext = dbContext;
         }
 
         public async Task<Employee> Create(Employee employee)
@@ -20,7 +20,7 @@ namespace Students_Mangmaent_With_Repostory_patten.Services
 
         public async Task Delete(int id)
         {
-            var em=await _dbContext.Employees.FindAsync(id);
+            var em = await _dbContext.Employees.FindAsync(id);
             _dbContext.Entry(em).State = EntityState.Deleted;
         }
 
@@ -36,14 +36,15 @@ namespace Students_Mangmaent_With_Repostory_patten.Services
 
         public async Task Save()
         {
-          await  _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync();
         }
 
         public async Task<Employee> Update(Employee employee)
         {
-           _dbContext.Entry(employee).State= EntityState.Modified;
-            return  employee;
-            
+            _dbContext.Entry(employee).State = EntityState.Modified;
+            return employee;
+
         }
     }
+
 }

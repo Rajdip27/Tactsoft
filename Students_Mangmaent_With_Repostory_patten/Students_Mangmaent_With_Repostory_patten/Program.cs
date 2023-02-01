@@ -13,6 +13,7 @@ builder.Services.AddScoped<ICource, CourceServices>();
 builder.Services.AddScoped<IFaculty, FacultyServices>();
 builder.Services.AddScoped<IEmployee, EmployeeServices>();
 builder.Services.AddScoped<ICustomer, CustomerServices>();
+builder.Services.AddScoped<IRegistration, RegistrationService>();
 var app = builder.Build();
 
 

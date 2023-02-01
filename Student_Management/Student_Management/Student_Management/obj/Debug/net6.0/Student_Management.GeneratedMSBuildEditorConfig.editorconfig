@@ -8,77 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Student_Management
 build_property.RootNamespace = Student_Management
-build_property.ProjectDir = D:\Rajdip_23\Student_Management\Student_Management\
+build_property.ProjectDir = E:\Tactsoft\Student_Management\Student_Management\Student_Management\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Rajdip_23\Student_Management\Student_Management
+build_property.MSBuildProjectDirectory = E:\Tactsoft\Student_Management\Student_Management\Student_Management
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Faculty/Create.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Faculty/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Faculty/Delete.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Faculty/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Faculty/Details.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Faculty/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Faculty/Edit.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Faculty/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Faculty/Index.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Faculty/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Home/Index.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Home/Privacy.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Shared/Error.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Student/Create.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Student/Delete.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Student/Details.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Student/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Student/Edit.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Student/Index.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/_ViewImports.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/_ViewStart.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Rajdip_23/Student_Management/Student_Management/Views/Shared/_Layout.cshtml]
+[E:/Tactsoft/Student_Management/Student_Management/Student_Management/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-eq8intqz6t

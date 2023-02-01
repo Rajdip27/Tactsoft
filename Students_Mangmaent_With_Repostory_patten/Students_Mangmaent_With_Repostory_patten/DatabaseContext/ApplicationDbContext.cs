@@ -14,6 +14,7 @@ namespace Students_Mangmaent_With_Repostory_patten.DatabaseContext
         public DbSet<Faculty> Facultys { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Registrion> Registrions { get; set; }  
 
     }
 }

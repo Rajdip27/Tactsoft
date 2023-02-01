@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rajdip_23\\Student_Management\\Student_Management\\Student_Management.csproj": {}
+    "E:\\Tactsoft\\Student_Management\\Student_Management\\Student_Management\\Student_Management.csproj": {}
   },
   "projects": {
-    "D:\\Rajdip_23\\Student_Management\\Student_Management\\Student_Management.csproj": {
+    "E:\\Tactsoft\\Student_Management\\Student_Management\\Student_Management\\Student_Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rajdip_23\\Student_Management\\Student_Management\\Student_Management.csproj",
+        "projectUniqueName": "E:\\Tactsoft\\Student_Management\\Student_Management\\Student_Management\\Student_Management.csproj",
         "projectName": "Student_Management",
-        "projectPath": "D:\\Rajdip_23\\Student_Management\\Student_Management\\Student_Management.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Rajdip_23\\Student_Management\\Student_Management\\obj\\",
+        "projectPath": "E:\\Tactsoft\\Student_Management\\Student_Management\\Student_Management\\Student_Management.csproj",
+        "packagesPath": "C:\\Users\\Santnu\\.nuget\\packages\\",
+        "outputPath": "E:\\Tactsoft\\Student_Management\\Student_Management\\Student_Management\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santnu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
