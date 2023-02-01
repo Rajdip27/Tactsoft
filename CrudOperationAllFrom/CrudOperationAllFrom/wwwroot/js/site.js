@@ -1,4 +1,16 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿$(document).ready(function () {
 
-// Write your JavaScript code.
+
+
+    //Image Preview
+    function PreviewImage() {
+        var oFReader = new FileReader();
+        oFReader.readAsDataURL(document.getElementById("FileUpload").files[0]);
+        oFReader.onload = function (oFREvent) {
+            document.getElementById("UploadFile").src = oFREvent.target.result;
+        };
+    };
+
+
+
+});

@@ -19,6 +19,10 @@ namespace CrudOperation.Models
         public Boolean Bsc { get; set; }
         public Boolean Msc { get; set; }
         public string Picture { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        [Display(Name = "Registration Date")]
+        public DateTime RegistrationDate { get; set; }
 
         [Required]
         [ForeignKey("Country")]
