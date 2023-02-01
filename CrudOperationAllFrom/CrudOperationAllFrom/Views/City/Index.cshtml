@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CrudOperation.Models.State>
+﻿@model IEnumerable<CrudOperation.Models.City>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,10 +13,10 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.StateName)
+                @Html.DisplayNameFor(model => model.CityName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Country)
+                @Html.DisplayNameFor(model => model.State)
             </th>
             <th></th>
         </tr>
@@ -25,10 +25,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.StateName)
+                @Html.DisplayFor(modelItem => item.CityName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Country.CountryName)
+                @Html.DisplayFor(modelItem => item.State.StateName)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

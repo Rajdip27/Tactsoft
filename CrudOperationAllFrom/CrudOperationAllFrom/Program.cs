@@ -1,5 +1,5 @@
 using CrudOperationAllFrom.Database;
-using CrudOperationAllFrom.Service;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,9 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 //Database Connection//
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Conn")));
-builder.Services.AddScoped<ICity,CityService>();
-builder.Services.AddScoped<IState,StateService>();
-builder.Services.AddScoped<ICountry, CountryService>();
 
 var app = builder.Build();
 

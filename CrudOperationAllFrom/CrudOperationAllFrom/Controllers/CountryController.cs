@@ -1,43 +1,42 @@
 ﻿using CrudOperation.Models;
-using CrudOperationAllFrom.Service;
+using CrudOperationAllFrom.Database;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace CrudOperationAllFrom.Controllers
 {
-    public class StateController : Controller
+    public class CountryController : Controller
     {
-        private readonly IState _state;
-        public StateController(IState state)
+        private readonly ApplicationDbContext _dbContext;
+        public CountryController(ApplicationDbContext dbContext)
         {
-            _state = state;
+            _dbContext = dbContext;
         }
 
-        public async Task <ActionResult <State>> Index()
+        public async Task< ActionResult<Country>> Index()
         {
-            return View(await _state.GetAll());
+            return View(await _dbContext.Countries.ToListAsync());
         }
         [HttpGet]
         public IActionResult Create()
         {
-           
-           
-           
+            
+
             return View();
         }
         [HttpPost]
-        public async Task<ActionResult<State>> create(State state)
+        public async Task<ActionResult<Country>> Create(Country country)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    await _state.Create(state);
-                    await _state.Save();
+                    await _dbContext.AddAsync(country);
+                    await _dbContext.SaveChangesAsync();
                     return RedirectToAction(actionName:nameof(Index));
                 }
-                return View(state);
+                return View(country);
 
             }catch(Exception ex)
             {
