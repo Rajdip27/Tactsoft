@@ -1,0 +1,69 @@
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using MvcShortProject.DatabaseContext;
+using MvcShortProject.Models;
+using System;
+
+namespace MvcShortProject.Controllers
+{
+    public class EmployeeController : Controller
+    {
+        private readonly ApplicationDbContext _dbContext;
+        private readonly IHostEnvironment _environment;
+        public EmployeeController(ApplicationDbContext dbContext, IHostEnvironment environment)
+        {
+            _dbContext = dbContext;
+            _environment = environment;
+        }
+
+        public async Task< IActionResult> Index()
+        {
+            var em=  _dbContext.Employees.Include(e => e.City).Include(e => e.Country).Include(e => e.State);
+            return View(await em.ToListAsync());
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName");
+            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id", "CountryName");
+            ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName");
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Create(Employee employee,IFormFile pictureFile)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    if(pictureFile != null && pictureFile.Length > 0)
+                    {
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", pictureFile.FileName);
+                        using (var stream= new FileStream(path, FileMode.Create))
+                        {
+                            pictureFile.CopyTo(stream);
+                        }
+                        employee.Picture = $"{pictureFile.FileName}";
+                    }
+                    _dbContext.Add(employee);
+                    await _dbContext.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+
+
+                }
+                ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName",employee.CityId);
+                ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id", "CountryName", employee.CountryId);
+                ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName", employee.StateId);
+                return View(employee);
+
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+    }
+}

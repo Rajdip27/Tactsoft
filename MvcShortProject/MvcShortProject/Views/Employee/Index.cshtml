@@ -1,0 +1,102 @@
+﻿@model IEnumerable< MvcShortProject.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h3>Employee List</h3>
+
+<p>
+    <a class="btn btn-outline-primary btn-sm " asp-action="Create"><i class="bi bi-pencil-square"></i> Add New</a>
+</p>
+<table id="myTable" class="table table-striped-columns">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Picture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th colspan="4" style="text-align:center">
+                Education
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.State)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegistrationDate)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    <img class="img-thumbnail" width="50" src="~/images/@Html.DisplayFor(modelItem => item.Picture)" alt="Image" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.Ssc)
+                    @Html.DisplayFor(modelItem => item.Ssc)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.Hsc)
+                    @Html.DisplayFor(modelItem => item.Hsc)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.Bsc)
+                    @Html.DisplayFor(modelItem => item.Bsc)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.Msc)
+                    @Html.DisplayFor(modelItem => item.Msc)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country.CountryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State.StateName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City.CityName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RegistrationDate)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye-fill"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash-fill"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
