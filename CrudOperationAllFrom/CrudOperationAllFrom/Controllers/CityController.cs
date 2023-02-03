@@ -16,13 +16,21 @@ namespace CrudOperationAllFrom.Controllers
 
         public async Task< ActionResult<City>> Index()
         {
-            return View(await _dbContext.Cities.ToListAsync());
+            var result = _dbContext.Cities.Include(e => e.State);
+            return View(await result.ToListAsync());
         }
         [HttpGet]
         public IActionResult Create()
         {
             ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName");
             return View();
+        }
+        [HttpPost]
+        public async Task<ActionResult<City>> Create(City city)
+        {
+            await _dbContext.AddAsync(city);
+            await _dbContext.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
     }
 }
