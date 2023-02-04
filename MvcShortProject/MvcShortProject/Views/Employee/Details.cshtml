@@ -1,0 +1,79 @@
+﻿@model MvcShortProject.Models.Employee
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h4>Employee Details</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-8">
+            <dl class="row">
+                <dt class="col-md-3">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class="col-md-9">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+                <dt class="col-md-3">
+                    @Html.DisplayNameFor(model => model.Address)
+                </dt>
+                <dd class="col-md-9">
+                    @Html.DisplayFor(model => model.Address)
+                </dd>
+                <dt class="col-md-3">
+                    @Html.DisplayNameFor(model => model.Gender)
+                </dt>
+                <dd class="col-md-9">
+                    @Html.DisplayFor(model => model.Gender)
+                </dd>
+                <dt class="col-md-3">
+                    Education
+                </dt>
+                <dd class="col-md-9">
+                    @Html.DisplayNameFor(model => model.Ssc)
+                    @Html.DisplayFor(model => model.Ssc)
+                    @Html.DisplayNameFor(model => model.Hsc)
+                    @Html.DisplayFor(model => model.Hsc)
+                    @Html.DisplayNameFor(model => model.Bsc)
+                    @Html.DisplayFor(model => model.Bsc)
+                    @Html.DisplayNameFor(model => model.Msc)
+                    @Html.DisplayFor(model => model.Msc)
+                </dd>
+                <dt class="col-md-3">
+                    @Html.DisplayNameFor(model => model.Country)
+                </dt>
+                <dd class="col-md-9">
+                    @Html.DisplayFor(model => model.Country.CountryName)
+                </dd>
+                <dt class="col-md-3">
+                    @Html.DisplayNameFor(model => model.State)
+                </dt>
+                <dd class="col-md-9">
+                    @Html.DisplayFor(model => model.State.StateName)
+                </dd>
+                <dt class="col-md-3">
+                    @Html.DisplayNameFor(model => model.City)
+                </dt>
+                <dd class="col-md-9">
+                    @Html.DisplayFor(model => model.City.CityName)
+                </dd>
+            </dl>
+        </div>
+        <div class="col-md-4">
+            <dl class="row">
+                <dt class="col-md-3">
+                    @Html.DisplayNameFor(model => model.Picture)
+                </dt>
+                <dd class="col-md-9">
+                    <img src="~/images/@Html.DisplayFor(model => model.Picture)" alt="Image" width="200" class="img-thumbnail" />
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

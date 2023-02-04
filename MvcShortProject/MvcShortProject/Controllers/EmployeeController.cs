@@ -65,5 +65,67 @@ namespace MvcShortProject.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName");
+            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id", "CountryName");
+            ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName");
+            var em = await _dbContext.Employees.FindAsync(id);
+            return View(em);
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName");
+            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id", "CountryName");
+            ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName");
+            var em = await _dbContext.Employees.FindAsync(id);
+            return View(em);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public JsonResult GetStatesByCountryId(int countryId)
+        {
+            List<State> statesList = new List<State>();
+            statesList = (from state in _dbContext.States
+                          where state.CountryId == countryId
+                          select state).ToList();
+
+            return Json(statesList);
+
+        }
+
+        public JsonResult GetCitiesByStateId(int stateId)
+        {
+            List<City> citiesList = new List<City>();
+
+            citiesList = (from city in _dbContext.Cities
+                          where city.StateId == stateId
+                          select city).ToList();
+
+            return Json(citiesList);
+        }
     }
 }
