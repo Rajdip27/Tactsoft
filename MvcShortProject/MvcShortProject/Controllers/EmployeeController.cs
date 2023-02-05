@@ -67,24 +67,73 @@ namespace MvcShortProject.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(int? id)
         {
-            ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName");
-            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id", "CountryName");
-            ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName");
-            var em = await _dbContext.Employees.FindAsync(id);
+             var em = await _dbContext.Employees.Include(x => x.Country).Include(c => c.City).Include(x => x.State).FirstOrDefaultAsync(m => m.Id == id);
             return View(em);
         }
 
 
         [HttpGet]
-        public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(int  id)
         {
             ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName");
-            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id", "CountryName");
+            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id","CountryName");
             ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName");
+
             var em = await _dbContext.Employees.FindAsync(id);
             return View(em);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(Employee employee, IFormFile pictureFile)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var emp = await _dbContext.Employees.FindAsync(employee.Id);
+                    if(pictureFile != null && pictureFile.Length > 0)
+                    {
+                        var path=Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", pictureFile.FileName);
+                        using(var stream=new FileStream(path, FileMode.Create))
+                        {
+                            pictureFile.CopyTo(stream);
+                        }
+                        employee.Picture = $"{pictureFile.FileName}";
+                    }
+                    else
+                    {
+                        employee.Picture=emp.Picture;
+                    }
+                    emp.Picture = employee.Picture;
+                    emp.Name = employee.Name;
+                    emp.Address=employee.Address;
+                    emp.Gender=employee.Gender;
+                    emp.Hsc=employee.Hsc;
+                    emp.Ssc=employee.Ssc;
+                    emp.Msc=employee.Msc;
+                    emp.Bsc=employee.Bsc;
+                    emp.CountryId=employee.CountryId;
+                    emp.StateId = employee.StateId;
+                    emp.CountryId = employee.CountryId;
+                    _dbContext.Update(emp);
+                    await _dbContext.SaveChangesAsync();
+
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    return NotFound();
+                }
+                return RedirectToAction("Index");
+            }
+            ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName",
+employee.CityId);
+            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id",
+           "CountryName", employee.CountryId);
+            ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName",
+           employee.StateId);
+            return View(employee);
+
         }
 
 

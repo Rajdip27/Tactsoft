@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hYmKJmdbW9YiFQrMwmffhUWJWaPtLv2EdgKe9fsx2Ds=",
+  "Hash": "IuAM9ZuAQwHoSZFUwto7WoszlaSMP2i2vLS8d5wEOkQ=",
   "Source": "MvcShortProject",
   "BasePath": "_content/MvcShortProject",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\16fgf65832fgsfgfsgfsfdggfg56kk9944.jpg"
+    },
+    {
+      "Identity": "E:\\Tactsoft\\MvcShortProject\\MvcShortProject\\wwwroot\\images\\326953090_894979201690217_7236361864290285449_n.jpg",
+      "SourceId": "MvcShortProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tactsoft\\MvcShortProject\\MvcShortProject\\wwwroot\\",
+      "BasePath": "_content/MvcShortProject",
+      "RelativePath": "images/326953090_894979201690217_7236361864290285449_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\326953090_894979201690217_7236361864290285449_n.jpg"
     },
     {
       "Identity": "E:\\Tactsoft\\MvcShortProject\\MvcShortProject\\wwwroot\\js\\site.js",
