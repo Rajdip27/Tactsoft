@@ -126,15 +126,19 @@ namespace MvcShortProject.Controllers
                 }
                 return RedirectToAction("Index");
             }
-            ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName",
-employee.CityId);
-            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id",
-           "CountryName", employee.CountryId);
-            ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName",
-           employee.StateId);
+            ViewData["CityId"] = new SelectList(_dbContext.Cities, "Id", "CityName",employee.CityId);
+            ViewData["CountryId"] = new SelectList(_dbContext.Countries, "Id","CountryName", employee.CountryId);
+            ViewData["StateId"] = new SelectList(_dbContext.States, "Id", "StateName",employee.StateId);
             return View(employee);
 
         }
+        [HttpGet]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            var em = await _dbContext.Employees.Include(x => x.Country).Include(c => c.City).Include(x => x.State).FirstOrDefaultAsync(m => m.Id == id);
+            return View(em);
+        }
+
 
 
 
