@@ -138,6 +138,26 @@ namespace MvcShortProject.Controllers
             var em = await _dbContext.Employees.Include(x => x.Country).Include(c => c.City).Include(x => x.State).FirstOrDefaultAsync(m => m.Id == id);
             return View(em);
         }
+        [HttpPost]
+        [ActionName("Delete")]
+        public async Task<IActionResult> DeleteCon(int id)
+        {
+            try
+            {
+                var em = await _dbContext.Employees.FindAsync(id);
+                if(em == null)
+                {
+                    return NotFound();
+                }
+                _dbContext.Entry(em).State = EntityState.Deleted;
+                await _dbContext.SaveChangesAsync();
+                return RedirectToAction("Index");
+
+            }catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
 
 
