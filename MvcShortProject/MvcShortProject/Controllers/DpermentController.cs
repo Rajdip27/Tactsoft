@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcShortProject.DatabaseContext;
 using MvcShortProject.Models;
@@ -21,6 +22,7 @@ namespace MvcShortProject.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+           
             return View();
         }
         [HttpPost]
