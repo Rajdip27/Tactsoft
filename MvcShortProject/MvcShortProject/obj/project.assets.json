@@ -2,6 +2,38 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "DotNetOpenAuth.Core/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http": "(, )"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.Core/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[4.3.4.13329]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -1343,6 +1375,25 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Net.Http/2.0.20505": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/System.Net.Http.dll": {
+            "related": ".WebRequest.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/System.Net.Http.dll": {
+            "related": ".WebRequest.xml;.xml"
           }
         }
       },
@@ -3533,6 +3584,56 @@
     }
   },
   "libraries": {
+    "DotNetOpenAuth.Core/4.3.4.13329": {
+      "sha512": "sgTuUWHv5tn1weh8jLqXytGQKWpebhk+D4e/RTNNH21eqCEs/ch+x7YxQxzp2u70DO1Hvcjb6dTDj2rO3grgxA==",
+      "type": "package",
+      "path": "dotnetopenauth.core/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "dotnetopenauth.core.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.core.nuspec",
+        "lib/net35-full/DotNetOpenAuth.Core.dll",
+        "lib/net35-full/DotNetOpenAuth.Core.xml",
+        "lib/net40-full/DotNetOpenAuth.Core.dll",
+        "lib/net40-full/DotNetOpenAuth.Core.xml",
+        "lib/net45-full/DotNetOpenAuth.Core.dll",
+        "lib/net45-full/DotNetOpenAuth.Core.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.Core/4.3.4.13329": {
+      "sha512": "r8XKTJ6c+YvOOQcTLMgjWsfAkNxgxp8QVsP6pRXrg1Onp5TpzNZ9ULVzKkyRRipmC0fEGitydRnjKRDD2QxLtg==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.core/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net35-full/web.config.transform",
+        "content/net40-full/web.config.transform",
+        "content/net45-full/web.config.transform",
+        "dotnetopenauth.openid.core.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.openid.core.nuspec",
+        "lib/net35-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net35-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net35-full/Mono.Math.dll",
+        "lib/net35-full/Mono.Math.xml",
+        "lib/net35-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net35-full/Org.Mentalis.Security.Cryptography.xml",
+        "lib/net40-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net40-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net40-full/Mono.Math.dll",
+        "lib/net40-full/Mono.Math.xml",
+        "lib/net40-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net40-full/Org.Mentalis.Security.Cryptography.xml",
+        "lib/net45-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net45-full/Mono.Math.dll",
+        "lib/net45-full/Mono.Math.xml",
+        "lib/net45-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net45-full/Org.Mentalis.Security.Cryptography.xml"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -5017,6 +5118,21 @@
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
         "microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
+      ]
+    },
+    "Microsoft.Net.Http/2.0.20505": {
+      "sha512": "XRsKQP2XEd/DGLerVsU+T2pKQGTFc9ctWsIVbRblL/y+jT/BUo28aJ5mWN40oAeUwwbpXshAc8uO/LRscWav9A==",
+      "type": "package",
+      "path": "microsoft.net.http/2.0.20505",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Net.Http.WebRequest.dll",
+        "lib/net40/System.Net.Http.WebRequest.xml",
+        "lib/net40/System.Net.Http.dll",
+        "lib/net40/System.Net.Http.xml",
+        "microsoft.net.http.2.0.20505.nupkg.sha512",
+        "microsoft.net.http.nuspec"
       ]
     },
     "Microsoft.NET.StringTools/17.3.2": {
@@ -10011,6 +10127,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DotNetOpenAuth.OpenId.Core >= 4.3.4.13329",
       "Microsoft.EntityFrameworkCore >= 6.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.13",
@@ -10060,6 +10177,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "DotNetOpenAuth.OpenId.Core": {
+            "target": "Package",
+            "version": "[4.3.4.13329, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.13, )"
@@ -10101,5 +10222,47 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DotNetOpenAuth.Core 4.3.4.13329 does not provide an inclusive lower bound for dependency Microsoft.Net.Http. An approximate best match of Microsoft.Net.Http 2.0.20505 was resolved.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.Core 4.3.4.13329' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.Core 4.3.4.13329' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Net.Http 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

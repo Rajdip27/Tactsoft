@@ -159,26 +159,6 @@ namespace MvcShortProject.Controllers
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         public JsonResult GetStatesByCountryId(int countryId)
         {
             List<State> statesList = new List<State>();
