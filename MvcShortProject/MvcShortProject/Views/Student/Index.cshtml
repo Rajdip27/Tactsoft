@@ -13,6 +13,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.Picture)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.StudentName)
             </th>
             <th>
@@ -30,9 +33,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.GenderId)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Picture)
-            </th>
+            
             <th>
                 @Html.DisplayNameFor(model => model.Deperment)
             </th>
@@ -52,6 +53,9 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                <img class="img-thumbnail" width="50" src="~/images/@Html.DisplayFor(modelItem => item.Picture)" alt="Image" />
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.StudentName)
             </td>
             <td>
@@ -69,9 +73,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.GenderId)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Picture)
-            </td>
+                
             <td>
                 @Html.DisplayFor(modelItem => item.Deperment.Name)
             </td>

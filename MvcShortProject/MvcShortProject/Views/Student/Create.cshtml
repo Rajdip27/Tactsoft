@@ -1,145 +1,87 @@
 ﻿@model MvcShortProject.Models.Student
+
 @{
     ViewData["Title"] = "Create";
-   
 }
 
-<div class="content-wrapper">
-    <div class="content-header">
-        <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h4 class="m-0">@ViewData["Title"]</h4>
-                </div>
-                <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                       
-                        <li class="breadcrumb-item active">@ViewData["Title"]</li>
-                    </ol>
-                </div>
+<h1>Create</h1>
+
+<h4>Student</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StudentName" class="control-label"></label>
+                <input asp-for="StudentName" class="form-control" />
+                <span asp-validation-for="StudentName" class="text-danger"></span>
             </div>
-        </div>
+            <div class="form-group">
+                <label asp-for="StudentEmail" class="control-label"></label>
+                <input asp-for="StudentEmail" class="form-control" />
+                <span asp-validation-for="StudentEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentPhone" class="control-label"></label>
+                <input asp-for="StudentPhone" class="form-control" />
+                <span asp-validation-for="StudentPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GenderId" class="control-label"></label>
+                <label class="radio-inline mx-2">
+                    @Html.RadioButtonFor(model => model.GenderId, "Male", htmlAttributes: new { @class = "form-check-input" }) Male
+                </label>
+                <label class="radio-inline mx-2">
+                    @Html.RadioButtonFor(model => model.GenderId, "Female", htmlAttributes: new { @class = "form-check-input" }) Female
+                </label>
+                <label class="radio-inline mx-2">
+                    @Html.RadioButtonFor(model => model.GenderId, "Other", htmlAttributes: new { @class = "form-check-input" }) Other
+                </label>
+                <span asp-validation-for="GenderId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Picture" class="control-label"></label>
+                <input asp-for="Picture" type="file" class="form-control" />
+                <span asp-validation-for="Picture" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepermentId" class="control-label"></label>
+                <select asp-for="DepermentId" class ="form-control" asp-items="ViewBag.DepermentId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountryId" class="control-label"></label>
+                <select asp-for="CountryId" class ="form-control" asp-items="ViewBag.CountryId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="StateId" class="control-label"></label>
+                <select asp-for="StateId" class ="form-control" asp-items="ViewBag.StateId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CityId" class="control-label"></label>
+                <select asp-for="CityId" class ="form-control" asp-items="ViewBag.CityId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
     </div>
-    <section class="content">
-        <div class="container-fluid">
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Add New Student</h3>
-                </div>
-                <form asp-action="Create" enctype="multipart/form-data">
-                    <div class="card-body">
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        <div class="row mt-2">
-                            <div class="col-md-6">
-                                <div class="row mb-2">
-                                    <label asp-for="StudentName" class="col-md-3 col-form-label"></label>
-                                    <div class="col-md-9">
-                                        <input asp-for="StudentName" class="form-control" />
-                                        <span asp-validation-for="StudentName" class="text-danger"></span>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <label class="col-md-3 col-form-label">Gender</label>
-                                    <div class="col-md-9 pt-2">
-                                        <label class="radio-inline ml-3">
-                                            @Html.RadioButtonFor(model => model.GenderId, "Male", htmlAttributes: new { @class = "form-check-input" }) Male
-                                        </label>
-                                        <label class="radio-inline ml-4">
-                                            @Html.RadioButtonFor(model => model.GenderId, "Female", htmlAttributes: new { @class = "form-check-input" }) Female
-                                        </label>
-                                        <label class="radio-inline ml-4">
-                                            @Html.RadioButtonFor(model => model.GenderId, "Other", htmlAttributes: new { @class = "form-check-input" }) Other
-                                        </label>
-                                        <br />
-                                        <span asp-validation-for="GenderId" class="text-danger"></span>
-                                    </div>
-                                </div>
+</div>
 
-                                <div class="row mb-2">
-                                    <label asp-for="DateOfBirth" class="col-md-3 col-form-label"></label>
-                                    <div class="col-md-9 pt-2">
-                                        <input asp-for="DateOfBirth" class="form-control" />
-                                        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <label asp-for="DepermentId" class="col-md-3 col-form-label"></label>
-                                    <div class="col-md-9">
-                                        <select asp-for="DepermentId" class="form-control" asp-items="@(ViewBag.DepermentId)">
-                                            <option value="">Select Department</option>
-                                        </select>
-                                        <span asp-validation-for="DepermentId" class="text-danger"></span>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <label asp-for="Address" class="col-md-3 col-form-label"></label>
-                                    <div class="col-md-9">
-                                        <textarea rows="4" asp-for="Address" class="form-control"></textarea>
-                                        <span asp-validation-for="Address" class="text-danger"></span>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row mb-2">
-                                    <label asp-for="CountryId" class="col-md-3 col-form-label"></label>
-                                    <div class="col-md-9">
-                                        <select asp-for="CountryId" class="form-control" asp-items="ViewBag.CountryId">
-                                            <option value="">Select Country</option>
-                                        </select>
-                                        <span asp-validation-for="CountryId" class="text-danger"></span>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <label asp-for="StateId" class="col-md-3 col-form-label"></label>
-                                    <div class="col-md-9">
-                                        <select asp-for="StateId" asp-items="@(ViewBag.StateId)" class="form-control">
-                                            <option value="">Select State</option>
-                                        </select>
-                                        <span asp-validation-for="StateId" class="text-danger"></span>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <label asp-for="CityId" class="col-md-3 col-form-label"></label>
-                                    <div class="col-md-9">
-                                        <select asp-for="CityId" asp-items="@(ViewBag.CityId)" class="form-control">
-                                            <option value="">Select City</option>
-                                        </select>
-                                        <span asp-validation-for="CityId" class="text-danger"></span>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <label asp-for="Picture" class="col-md-3 col-form-label"></label>
-                                    <div class="col-md-9">
-                                        <input type="file" asp-for="Picture" class="form-control" name="pictureFile" accept="image/*" id="FileUpload" onchange="PreviewImage()" />
-                                        <span asp-validation-for="Picture" class="text-danger"></span>
-                                    </div>
-                                    <div class="mt-3" style="text-align:end">
-                                        <img src="~/admin-lte/img/boxed-bg.jpg" alt="img" id="UploadFile" class="img-thumbnail" style="width:150px;" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-footer">
-                        <div style="text-align:end">
-                            <a class="btn btn-outline-danger btn-sm" asp-action="Index">
-                                <i class="far fa-window-close"></i> Cancel
-                            </a>
-                            <button type="submit" value="Create" class="btn btn-outline-primary btn-sm">
-                                <i class="far fa-save"></i> Save
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
+<div>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-    }
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

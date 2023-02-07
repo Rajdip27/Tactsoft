@@ -34,8 +34,7 @@ namespace MvcShortProject.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Student student,IFormFile pictureFile)
         {
-            try
-            {
+            
                 if (ModelState.IsValid)
                 {
                     if (pictureFile != null && pictureFile.Length > 0)
@@ -58,11 +57,7 @@ namespace MvcShortProject.Controllers
                 ViewData["StateId"] = new SelectList(_context.States, "Id", "StateName");
                 return View(student);
 
-            }
-            catch(Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+          
         }
         
     }
