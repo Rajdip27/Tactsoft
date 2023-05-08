@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper_Store_Sqlprocedure", "Dapper_Store_Sqlprocedure\Dapper_Store_Sqlprocedure.csproj", "{411D036D-88F0-43C6-9281-09E93B9DA73F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{411D036D-88F0-43C6-9281-09E93B9DA73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411D036D-88F0-43C6-9281-09E93B9DA73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411D036D-88F0-43C6-9281-09E93B9DA73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411D036D-88F0-43C6-9281-09E93B9DA73F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD0A41A3-B665-4299-91F3-ADA905DA608A}
+	EndGlobalSection
+EndGlobal

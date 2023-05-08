@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Dapper_Store_Sqlprocedure.props" />
+</Project>

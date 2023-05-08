@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "K1rspRCTXpypPkksxZTnIQqIfzyKFQI7T2Pqx4yEA0g=",
+  "Source": "Dapper_Store_Sqlprocedure",
+  "BasePath": "_content/Dapper_Store_Sqlprocedure",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
