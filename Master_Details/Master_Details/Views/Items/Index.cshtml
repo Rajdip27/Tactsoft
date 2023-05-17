@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Master_Details.Models.Item>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h3 class="m-0">@ViewData["Title"]</h3>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Dashboard</a></li>
+                        <li class="breadcrumb-item active">@ViewData["Title"]</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between">
+                        <h3 class="card-title">@ViewData["Title"] List</h3>
+                        <a class="btn btn-outline-primary btn-sm" asp-action="Create">
+                            <i class="fa-regular fa-pen-to-square"></i> Add New
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ItemName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ItemCode)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Discription)
+                                </th>
+                                <th style="width:90px">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ItemName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ItemCode)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Discription)
+                                    </td>
+
+                                    <td>
+                                        @Html.ActionLink("", "Edit", new { id = item.Id }, new { @class = "fa-regular fa-pen-to-square", @style = "color:green" }) |
+                                        @Html.ActionLink("", "Details", new { id = item.Id }, new { @class = "fa-regular fa-eye", @style = "color:blue" }) |
+                                        @Html.ActionLink("", "Delete", new { id = item.Id }, new { @class = "fa-regular fa-trash-can", @style = "color: red" })
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,128 @@
+﻿@model Master_Details.Models.Supplier
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h4 class="m-0">Job Seeker Registraion Form</h4>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Dashboard</a></li>
+                        <li class="breadcrumb-item active">@ViewData["Title"]</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title text-center">Job Seeker info</h3>
+                </div>
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div class="card-body">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <div class="row mb-2">
+                                    <label asp-for="SupplierName" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <input asp-for="SupplierName" class="form-control" />
+                                        <span asp-validation-for="SupplierName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="ContactPerson" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <input asp-for="ContactPerson" class="form-control" />
+                                        <span asp-validation-for="ContactPerson" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="SupplierEmail" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <input asp-for="SupplierEmail" class="form-control" />
+                                        <span asp-validation-for="SupplierEmail" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="SupplierPhone" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <input asp-for="SupplierPhone" class="form-control" />
+                                        <span asp-validation-for="SupplierPhone" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="SupplierAddress" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <input asp-for="SupplierAddress" class="form-control" />
+                                        <span asp-validation-for="SupplierAddress" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="PostalCode" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <input asp-for="PostalCode" class="form-control" />
+                                        <span asp-validation-for="PostalCode" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="CountryId" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <select asp-for="CountryId" class="form-control" asp-items="@(ViewBag.CountryId)">
+                                            <option value="">Select Country</option>
+                                        </select>
+                                        <span asp-validation-for="CountryId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="CityId" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <select asp-for="CityId" class="form-control" asp-items="@(ViewBag.CityId)">
+                                            <option value="">Select City</option>
+                                        </select>
+                                        <span asp-validation-for="CityId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="StateId" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <select asp-for="StateId" class="form-control" asp-items="@(ViewBag.StateId)">
+                                            <option value="">Select State</option>
+                                        </select>
+                                        <span asp-validation-for="StateId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <div style="text-align:end">
+                            <a class="btn btn-outline-danger btn-sm" asp-action="Index">
+                                <i class="far fa-window-close"></i> Cancel
+                            </a>
+                            <button type="submit" value="Create" class="btn btn-outline-primary btn-sm">
+                                <i class="far fa-save"></i> Save
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

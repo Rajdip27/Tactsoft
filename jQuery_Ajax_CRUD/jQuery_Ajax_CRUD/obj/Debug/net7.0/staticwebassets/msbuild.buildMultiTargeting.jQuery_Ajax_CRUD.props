@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\jQuery_Ajax_CRUD.props" />
+</Project>

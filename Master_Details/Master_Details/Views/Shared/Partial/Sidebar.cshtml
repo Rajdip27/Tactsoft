@@ -1,0 +1,67 @@
+﻿<aside class="main-sidebar sidebar-light-primary elevation-1">
+    
+    <a asp-controller="Dashboard" asp-action="Index" class="brand-link">
+        <img src="~/photo.jpg" alt="Tactsoft Logo" class="brand-image img-circle elevation-1" style="opacity: .8">
+        <span class="brand-text font-weight-light">Tactsoft</span>
+    </a>
+
+    <div class="sidebar">
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Dashboard" asp-action="Index">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Items" asp-action="Index">
+                        <i class="nav-icon fab fa-product-hunt"></i>
+                        <p>Item</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Suppliers" asp-action="Index">
+                        <i class="nav-icon fas fa-shipping-fast"></i>
+                        <p>Supplier</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Purchases" asp-action="Index">
+                        <i class="nav-icon fas fa-cart-plus"></i>
+                        <p>Purchase</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-globe nav-icon"></i>
+                        <p>
+                            Regions
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Countries" asp-action="Index">
+                                <i class="fas fa-map-marked-alt nav-icon"></i>
+                                <p>Country</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="States" asp-action="Index">
+                                <i class="fas fa-street-view nav-icon"></i>
+                                <p>State</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cities" asp-action="Index">
+                                <i class="fas fa-city nav-icon"></i>
+                                <p>City</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</aside>

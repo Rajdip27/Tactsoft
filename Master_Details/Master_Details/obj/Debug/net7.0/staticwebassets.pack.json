@@ -1,0 +1,2917 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Master_Details.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Master_Details.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\adminlte.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.components.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.components.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.components.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.components.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.components.min.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.components.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.components.min.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.components.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.core.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.core.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.core.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.core.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.core.min.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.core.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.core.min.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.core.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.extra-components.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.extra-components.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.extra-components.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.extra-components.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.extra-components.min.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.extra-components.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.extra-components.min.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.extra-components.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.light.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.light.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.light.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.light.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.light.min.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.light.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.light.min.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.light.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.pages.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.pages.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.pages.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.pages.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.pages.min.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.pages.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.pages.min.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.pages.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.plugins.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.plugins.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.plugins.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.plugins.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.plugins.min.css",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.plugins.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\css\\alt\\adminlte.plugins.min.css.map",
+      "PackagePath": "staticwebassets\\admin-lte\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\avatar.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\avatar2.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\avatar3.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\avatar4.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\avatar4.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\avatar5.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\boxed-bg.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\default-150x150.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\icons.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\icons.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\photo1.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\photo2.png"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\photo3.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\photo4.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\prod-1.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\prod-2.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\prod-3.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\prod-4.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\prod-5.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\admin-lte\\img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\js\\StudentCRUD.js",
+      "PackagePath": "staticwebassets\\admin-lte\\js\\StudentCRUD.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\admin-lte\\js\\adminlte.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\admin-lte\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\admin-lte\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\admin-lte\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\js\\dropdown.js",
+      "PackagePath": "staticwebassets\\admin-lte\\js\\dropdown.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\js\\imagePreview.js",
+      "PackagePath": "staticwebassets\\admin-lte\\js\\imagePreview.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\admin-lte\\js\\menu.js",
+      "PackagePath": "staticwebassets\\admin-lte\\js\\menu.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\css\\flag-icons.css",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\css\\flag-icons.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\css\\flag-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\css\\flag-icons.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ac.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ac.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ad.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ad.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ae.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ae.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\af.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\af.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ag.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ag.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ai.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ai.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\al.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\al.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\am.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\am.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ao.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ao.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\aq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\aq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ar.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ar.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\as.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\as.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\at.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\at.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\au.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\au.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\aw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\aw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ax.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ax.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\az.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\az.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ba.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ba.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bb.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bb.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bd.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bd.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\be.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\be.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bi.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bi.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bo.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bo.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\br.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\br.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bs.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bs.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\by.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\by.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\bz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\bz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ca.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ca.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cd.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cd.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cefta.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cefta.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ch.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ch.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ci.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ci.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ck.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ck.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\co.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\co.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cx.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cx.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cy.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cy.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\cz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\cz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\de.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\de.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\dg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\dg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\dj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\dj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\dk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\dk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\dm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\dm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\do.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\do.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\dz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\dz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ea.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ea.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ec.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ec.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ee.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ee.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\eg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\eg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\eh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\eh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\er.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\er.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\es-ct.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\es-ct.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\es-ga.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\es-ga.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\es.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\es.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\et.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\et.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\eu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\eu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\fi.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\fi.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\fj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\fj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\fk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\fk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\fm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\fm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\fo.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\fo.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\fr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\fr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ga.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ga.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gb-eng.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gb-nir.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gb-sct.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gb-wls.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gb.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gb.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gd.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gd.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ge.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ge.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gi.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gi.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gs.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gs.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\gy.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\gy.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\hk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\hk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\hm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\hm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\hn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\hn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\hr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\hr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ht.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ht.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\hu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\hu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ic.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ic.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\id.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\id.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ie.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ie.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\il.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\il.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\im.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\im.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\in.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\in.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\io.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\io.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\iq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\iq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ir.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ir.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\is.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\is.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\it.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\it.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\je.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\je.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\jm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\jm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\jo.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\jo.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\jp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\jp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ke.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ke.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\kg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\kg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\kh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\kh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ki.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ki.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\km.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\km.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\kn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\kn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\kp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\kp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\kr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\kr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\kw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\kw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ky.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ky.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\kz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\kz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\la.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\la.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\lb.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\lb.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\lc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\lc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\li.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\li.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\lk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\lk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\lr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\lr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ls.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ls.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\lt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\lt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\lu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\lu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\lv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\lv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ly.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ly.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ma.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ma.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\md.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\md.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\me.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\me.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ml.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ml.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mo.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mo.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ms.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ms.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mx.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mx.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\my.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\my.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\mz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\mz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\na.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\na.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\nc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\nc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ne.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ne.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\nf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\nf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ng.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ng.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ni.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ni.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\nl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\nl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\no.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\no.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\np.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\np.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\nr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\nr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\nu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\nu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\nz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\nz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\om.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\om.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pa.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pa.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pe.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pe.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ph.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ph.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ps.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ps.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\pw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\pw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\py.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\py.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\qa.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\qa.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\re.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\re.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ro.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ro.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\rs.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\rs.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ru.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ru.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\rw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\rw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sa.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sa.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sb.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sb.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sd.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sd.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\se.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\se.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\si.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\si.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\so.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\so.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ss.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ss.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\st.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\st.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sx.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sx.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sy.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sy.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\sz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\sz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ta.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ta.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\td.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\td.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\th.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\th.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\to.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\to.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\tz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\tz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ua.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ua.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ug.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ug.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\um.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\um.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\un.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\un.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\us.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\uy.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\uy.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\uz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\uz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\va.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\va.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\vc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\vc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ve.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ve.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\vg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\vg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\vi.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\vi.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\vn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\vn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\vu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\vu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\wf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\wf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ws.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ws.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\xk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\xk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\xx.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\xx.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\ye.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\ye.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\yt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\yt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\za.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\za.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\zm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\zm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\1x1\\zw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\1x1\\zw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ac.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ac.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ad.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ad.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ae.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ae.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\af.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\af.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ag.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ag.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ai.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ai.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\al.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\al.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\am.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\am.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ao.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ao.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\aq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\aq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ar.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ar.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\as.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\as.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\at.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\at.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\au.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\au.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\aw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\aw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ax.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ax.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\az.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\az.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ba.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ba.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bb.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bb.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bd.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bd.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\be.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\be.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bi.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bi.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bo.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bo.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\br.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\br.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bs.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bs.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\by.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\by.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\bz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\bz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ca.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ca.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cd.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cd.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cefta.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cefta.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ch.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ch.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ci.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ci.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ck.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ck.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\co.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\co.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cx.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cx.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cy.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cy.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\cz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\cz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\de.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\de.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\dg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\dg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\dj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\dj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\dk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\dk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\dm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\dm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\do.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\do.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\dz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\dz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ea.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ea.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ec.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ec.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ee.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ee.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\eg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\eg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\eh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\eh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\er.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\er.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\es-ct.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\es-ct.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\es-ga.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\es-ga.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\es.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\es.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\et.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\et.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\eu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\eu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\fi.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\fi.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\fj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\fj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\fk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\fk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\fm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\fm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\fo.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\fo.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\fr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\fr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ga.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ga.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gb-eng.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gb-nir.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gb-sct.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gb-wls.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gb.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gb.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gd.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gd.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ge.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ge.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gi.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gi.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gs.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gs.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\gy.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\gy.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\hk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\hk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\hm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\hm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\hn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\hn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\hr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\hr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ht.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ht.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\hu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\hu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ic.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ic.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\id.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\id.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ie.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ie.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\il.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\il.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\im.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\im.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\in.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\in.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\io.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\io.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\iq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\iq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ir.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ir.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\is.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\is.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\it.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\it.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\je.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\je.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\jm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\jm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\jo.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\jo.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\jp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\jp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ke.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ke.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\kg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\kg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\kh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\kh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ki.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ki.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\km.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\km.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\kn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\kn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\kp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\kp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\kr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\kr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\kw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\kw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ky.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ky.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\kz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\kz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\la.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\la.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\lb.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\lb.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\lc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\lc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\li.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\li.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\lk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\lk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\lr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\lr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ls.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ls.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\lt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\lt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\lu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\lu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\lv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\lv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ly.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ly.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ma.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ma.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\md.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\md.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\me.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\me.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ml.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ml.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mo.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mo.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mp.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mp.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mq.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mq.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ms.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ms.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mx.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mx.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\my.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\my.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\mz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\mz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\na.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\na.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\nc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\nc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ne.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ne.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\nf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\nf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ng.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ng.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ni.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ni.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\nl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\nl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\no.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\no.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\np.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\np.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\nr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\nr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\nu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\nu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\nz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\nz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\om.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\om.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pa.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pa.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pe.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pe.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ph.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ph.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ps.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ps.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\pw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\pw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\py.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\py.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\qa.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\qa.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\re.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\re.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ro.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ro.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\rs.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\rs.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ru.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ru.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\rw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\rw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sa.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sa.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sb.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sb.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sd.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sd.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\se.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\se.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sh.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sh.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\si.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\si.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\so.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\so.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ss.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ss.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\st.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\st.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sx.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sx.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sy.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sy.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\sz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\sz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ta.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ta.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\td.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\td.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\th.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\th.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tj.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tj.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tl.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tl.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\to.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\to.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tr.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tr.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tv.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tv.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\tz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\tz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ua.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ua.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ug.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ug.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\um.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\um.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\un.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\un.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\us.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\us.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\uy.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\uy.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\uz.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\uz.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\va.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\va.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\vc.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\vc.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ve.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ve.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\vg.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\vg.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\vi.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\vi.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\vn.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\vn.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\vu.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\vu.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\wf.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\wf.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ws.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ws.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\xk.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\xk.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\xx.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\xx.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\ye.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\ye.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\yt.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\yt.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\za.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\za.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\zm.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\zm.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\flag-icon-css\\flags\\4x3\\zw.svg",
+      "PackagePath": "staticwebassets\\lib\\flag-icon-css\\flags\\4x3\\zw.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "E:\\Tactsoft\\Master_Details\\Master_Details\\wwwroot\\photo.jpg",
+      "PackagePath": "staticwebassets\\photo.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Master_Details.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Master_Details.props",
+      "PackagePath": "build\\Master_Details.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Master_Details.props",
+      "PackagePath": "buildMultiTargeting\\Master_Details.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Master_Details.props",
+      "PackagePath": "buildTransitive\\Master_Details.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

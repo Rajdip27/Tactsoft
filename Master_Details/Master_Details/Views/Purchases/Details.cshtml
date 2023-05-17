@@ -1,0 +1,250 @@
+﻿@model Master_Details.Models.Purchase
+
+@{
+    ViewData["Title"] = "Purchase";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<style>
+    .form-control:disabled, .form-control[readonly] {
+        background-color: #fff !important;
+    }
+</style>
+
+<div class="content-wrapper">
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h4 class="m-0">@ViewData["Title"]</h4>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Dashboard</a></li>
+                        <li class="breadcrumb-item active">@ViewData["Title"]</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between">
+                        <h3 class="card-title">@ViewData["Title"] Details</h3>
+                        <a class="btn btn-primary btn-sm" onclick="PrintInvoice(@Model.Id)">
+                            <i class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+                <form>
+                    <div class="card-body">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label asp-for="PurchaseDate" class="control-label"></label>
+                                    <input asp-for="PurchaseDate" class="form-control form-control-sm form-control-plaintext " readonly />
+                                    <span asp-validation-for="PurchaseDate" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="PurchaseCode" class="control-label"></label>
+                                    <input asp-for="PurchaseCode" class="form-control form-control-sm form-control-plaintext " readonly />
+                                    <span asp-validation-for="PurchaseCode" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label asp-for="PurchaseType" class="control-label"></label>
+                                    <input asp-for="PurchaseType" class="form-control form-control-sm form-control-plaintext " readonly />
+                                    <span asp-validation-for="PurchaseType" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="SupplierId" class="control-label"></label>
+                                    <select asp-for="SupplierId" class="form-control form-control-sm form-control-plaintext " readonly asp-items="ViewBag.SupplierId">
+                                        <option value="">Select Supplier</option>
+                                    </select>
+                                    <span asp-validation-for="SupplierId" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label asp-for="Attn" class="control-label"></label>
+                                    <input asp-for="Attn" class="form-control form-control-sm form-control-plaintext " readonly />
+                                    <span asp-validation-for="Attn" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="LcNumber" class="control-label"></label>
+                                    <input asp-for="LcNumber" class="form-control form-control-sm form-control-plaintext " readonly />
+                                    <span asp-validation-for="LcNumber" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label asp-for="LcDate" class="control-label"></label>
+                                    <input asp-for="LcDate" class="form-control form-control-sm form-control-plaintext " readonly value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                                    <span asp-validation-for="LcDate" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="PoNumber" class="control-label"></label>
+                                    <input asp-for="PoNumber" class="form-control form-control-sm form-control-plaintext " readonly />
+                                    <span asp-validation-for="PoNumber" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <table class="table table-bordered" id="purchaseItems">
+                                    <thead>
+                                        <tr>
+                                            <td>Item Name</td>
+                                            <td>Batch Number</td>
+                                            <td>Quantity</td>
+                                            <td>Purchase Price</td>
+                                            <td>Sell Price</td>
+                                            <td>Expiration Date</td>
+                                            <td>Amount</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @for (int i = 0; i < Model.PurchaseItems.Count; i++)
+                                        {
+                                            <tr>
+                                                <td style="width:170px">
+                                                    <select class="form-control form-control-plaintext form-control-sm" readonly asp-for="PurchaseItems[i].ItemId" asp-items="ViewBag.ItemId">
+                                                        <option value="">Select Product</option>
+                                                    </select>
+                                                    <span asp-validation-for="PurchaseItems[i].ItemId" class="text-danger"></span>
+                                                </td>
+                                                <td>
+                                                    <input asp-for="@Model.PurchaseItems[i].BatchNumber" class="form-control form-control-sm form-control-plaintext " readonly>
+                                                    <span asp-validation-for="PurchaseItems[i].BatchNumber" class="text-danger"></span>
+                                                </td>
+                                                <td>
+                                                    <input type="number" asp-for="@Model.PurchaseItems[i].Quantity" class="form-control form-control-sm form-control-plaintext " readonly>
+                                                    <span asp-validation-for="PurchaseItems[i].Quantity" class="text-danger"></span>
+                                                </td>
+                                                <td>
+                                                    <input type="number" asp-for="@Model.PurchaseItems[i].PurchasePrice" class="form-control form-control-sm form-control-plaintext " readonly>
+                                                    <span asp-validation-for="PurchaseItems[i].PurchasePrice" class="text-danger"></span>
+                                                </td>
+                                                <td>
+                                                    <input type="number" asp-for="@Model.PurchaseItems[i].SellPrice" class="form-control form-control-sm form-control-plaintext " readonly>
+                                                    <span asp-validation-for="PurchaseItems[i].SellPrice" class="text-danger"></span>
+                                                </td>
+                                                <td>
+                                                    <input type="date" asp-for="@Model.PurchaseItems[i].ExpirationDate" class="form-control form-control-sm form-control-plaintext " readonly>
+                                                    <span asp-validation-for="PurchaseItems[i].ExpirationDate" class="text-danger"></span>
+                                                </td>
+                                                <td>
+                                                    <input type="number" asp-for="@Model.PurchaseItems[i].Amount" class="form-control form-control-sm form-control-plaintext " readonly>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label asp-for="Remarks" class="control-label"></label>
+                                    <textarea asp-for="Remarks" class="form-control form-control-plaintext " readonly></textarea>
+                                    <span asp-validation-for="Remarks" class="text-danger"></span>
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="Cancle" />
+                                        @Html.DisplayNameFor(model => model.Cancle)
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row col-md-8">
+
+                                <div class="form-group row col-md-6">
+                                    <label asp-for="DiscountPercent" class="col-sm-6 col-form-label col-form-label-sm">Discount Percent (%)</label>
+                                    <div class="col-sm-6">
+                                        <input type="number" asp-for="DiscountPercent" class="form-control form-control-sm form-control-plaintext" readonly />
+                                        <span asp-validation-for="DiscountPercent" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row col-md-6">
+                                    <label asp-for="DiscountAmount" class="col-sm-5 col-form-label col-form-label-sm"></label>
+                                    <div class="col-sm-7">
+                                        <input type="number" asp-for="DiscountAmount" class="form-control form-control-sm form-control-plaintext" readonly />
+                                        <span asp-validation-for="DiscountAmount" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row col-md-6">
+                                    <label asp-for="VatPercent" class="col-sm-6 col-form-label col-form-label-sm">Vat Percent (%)</label>
+                                    <div class="col-sm-6">
+                                        <input type="number" asp-for="VatPercent" class="form-control form-control-sm form-control-plaintext" readonly />
+                                        <span asp-validation-for="VatPercent" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row col-md-6">
+                                    <label asp-for="VatAmount" class="col-sm-5 col-form-label col-form-label-sm"></label>
+                                    <div class="col-sm-7">
+                                        <input type="number" asp-for="VatAmount" class="form-control form-control-sm form-control-plaintext" readonly />
+                                        <span asp-validation-for="VatAmount" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row col-md-6">
+                                    <label asp-for="PaymentType" class="col-sm-6 col-form-label col-form-label-sm"></label>
+                                    <div class="col-sm-6">
+                                        <input asp-for="PaymentType" class="form-control form-control-sm form-control-plaintext" readonly />
+                                        <span asp-validation-for="PaymentType" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row col-md-6">
+                                    <label asp-for="TotalAmount" class="col-sm-5 col-form-label col-form-label-sm"></label>
+                                    <div class="col-sm-7">
+                                        <input type="number" asp-for="TotalAmount" class="form-control form-control-sm form-control-plaintext" readonly />
+                                        <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row col-md-6">
+                                </div>
+                                <div class="form-group row col-md-6">
+                                    <label asp-for="PaymentAmount" class="col-sm-5 col-form-label col-form-label-sm"></label>
+                                    <div class="col-sm-7">
+                                        <input type="number" asp-for="PaymentAmount" class="form-control form-control-sm form-control-plaintext" readonly />
+                                        <span asp-validation-for="PaymentAmount" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <div style="text-align:end">
+                            <a class="btn btn-outline-danger btn-sm mr-2" asp-action="Index">
+                                <i class="far fa-window-close"></i> Cancel
+                            </a>
+                            <a class="btn btn-outline-primary btn-sm me-3" asp-action="Edit" asp-route-id="@Model?.Id">
+                                <i class="fa-regular fa-pen-to-square"></i> Edit
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/admin-lte/js/ItemCRUD.js"></script>
+    <script>
+        //PrintInvoice
+        var PrintInvoice = function (id) {
+            location.href = "/Report/PrintInvoice?id=" + id;
+        };
+    </script>
+}

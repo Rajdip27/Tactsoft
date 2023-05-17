@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin</title>
+
+    <partial name="partial/Styles" />
+
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body class="hold-transition light-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+    <div class="wrapper" style="font-size:14px;">
+        
+        <partial name="partial/Navbar" />
+        <partial name="partial/Sidebar" />
+        <div id="pageLoad">
+            @RenderBody()
+        </div>
+        <partial name="partial/Footer" />
+    </div>
+
+    <partial name="partial/Scripts" />
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

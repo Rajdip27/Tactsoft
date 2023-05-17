@@ -1,0 +1,80 @@
+﻿@model Master_Details.Models.State
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="content-wrapper">
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h4 class="m-0">Country Edit Form</h4>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Dashboard</a></li>
+                        <li class="breadcrumb-item active">@ViewData["Title"]</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title text-center">Country info</h3>
+                </div>
+                <form asp-action="Edit" enctype="multipart/form-data">
+                    <div class="card-body">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="row mt-2">
+
+                            <div class="col-md-6">
+                                <div class="row mb-2">
+                                    <label asp-for="StateName" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <input asp-for="StateName" class="form-control" />
+                                        <span asp-validation-for="StateName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label asp-for="CountryId" class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                        <select asp-for="CountryId" class="form-control" asp-items="@(ViewBag.CountryId)">
+                                            <option value="">Select Country</option>
+                                        </select>
+                                        <span asp-validation-for="CountryId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <div style="text-align:end">
+                            <a class="btn btn-outline-danger btn-sm" asp-action="Index">
+                                <i class="far fa-window-close"></i> Cancel
+                            </a>
+                            <button type="submit" value="Create" class="btn btn-outline-primary btn-sm">
+                                <i class="far fa-save"></i> Update
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
