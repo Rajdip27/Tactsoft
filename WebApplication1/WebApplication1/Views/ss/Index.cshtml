@@ -1,0 +1,195 @@
+﻿@model WebApplication1.Models.Shipment
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<form id="CreateContainerForm">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create Container</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+       <div class="row">
+
+            <div class="row mt-1">
+                <div class="col">
+                    <label>Cargo Control No</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Date Issue</label>
+                    @Html.TextBoxFor(m => m.DateIssued, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Coload Mode</label>
+                    @Html.TextBoxFor(m => m.ColoadModeId, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Shipment PCCN</label>
+                    @Html.TextBoxFor(m => m.RemanShipmentId, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Probill No</label>
+                    @*@Html.TextBoxFor(m => m.ProbillNo, new {@class="form-control"})*@
+                </div>
+            </div>
+
+
+            <div class="row mt-2">
+                <div class="col">
+                    <label>Consignee </label>
+                    @Html.TextBoxFor(m => m.ConsigneeName, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Shipper Name</label>
+                    @Html.TextBoxFor(m => m.ShipperName, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Coloading Freight Forwarder</label>
+                    @Html.TextBoxFor(m => m.ColoadingFreightForwarderId, new {@class="form-control"})
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Default Billing Reference</label>
+                    @Html.TextBoxFor(m => m.BillingReference, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Container(s)Container</label>
+                    @Html.TextBoxFor(m => m.RemainInContainer, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Bill No </label>
+                    @Html.TextBoxFor(m => m.Blno, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Weight</label>
+                    @Html.TextBoxFor(m => m.Weight, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Volume</label>
+                    @Html.TextBoxFor(m => m.Volume, new {@class="form-control"})
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Package Count</label>
+                    @Html.TextBoxFor(m => m.PackagePieceCount, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Package Description</label>
+                    @Html.TextAreaFor(m => m.PackageDescription, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Package Notes</label>
+                    @Html.TextAreaFor(m => m.PackageNotes, new {@class="form-control"})
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.CustomsClearanceIssueDate, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.CustomsBrokers, new {@class="form-control"})
+                </div>
+                <div class="col">
+
+                    <label>Cancelled Manifest Received Date</label>
+                    @Html.TextBoxFor(m => m.CancelledManifestReceivedDate, new {@class="form-control"})
+                    <div class="col-md-auto">
+                        <label>Cancelled Manifest Received Date</label>
+                        @Html.TextBoxFor(m => m.CancelledManifestReceivedDate, new {@class="form-control"})
+                    </div>
+                </div>
+                <div class="col">
+                    <label>Release Notes</label>
+                    @Html.TextAreaFor(m => m.ReleaseOrderNotes, new {@class="form-control"})
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+                </div>
+                <div class="col">
+
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+                    
+                </div>
+                <div class="col">
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+                </div>
+                <div class="col">
+
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+
+                </div>
+                <div class="col">
+                    <label>Seal No.</label>
+                    @Html.TextBoxFor(m => m.PreviousCargoControlNo, new {@class="form-control"})
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Pallet Count</label>
+                    @Html.TextBoxFor(m => m.PalletCount, new {@class="form-control"})
+                </div>
+                <div class="col">
+                    <label>No Pallet Exchange</label>
+                    @Html.TextBoxFor(m => m.NoPalletExchange, new {@class="form-control"})
+                </div>
+                <div class="col">
+
+                    <label>Pallet Description</label>
+                    @Html.TextBoxFor(m => m.PalletDesc, new {@class="form-control"})
+
+                </div>
+                <div class="col">
+                    <label>Pallet Count</label>
+                    @Html.TextBoxFor(m => m.PalletCount, new {@class="form-control"})
+                </div>
+                
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+
+</form>
+

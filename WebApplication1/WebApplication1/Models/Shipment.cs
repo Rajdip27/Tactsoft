@@ -1,0 +1,81 @@
+﻿namespace WebApplication1.Models
+{
+    public class Shipment
+    {
+        public Guid Id { get; set; }
+        public string? CargoControlNumber { get; set; }
+        public string? BillingReference { get; set; }
+        public string? Blno { get; set; }
+        public string? PreviousCargoControlNo { get; set; }
+        public string? CustomsBrokerTransNo { get; set; }
+        public DateTime? DateIssued { get; set; }
+        public string? CarrierName { get; set; }
+        public DateTime? DeliveryDate { get; set; }
+        public string? DeliveryNotes { get; set; }
+        public string? StorageGuarantee { get; set; }
+        public double? Weight { get; set; }
+        public double? Volume { get; set; }
+        public int? PalletCount { get; set; }
+        public int? PiecesShortCount { get; set; }
+        public string? PiecesShortDescription { get; set; }
+        public int? PiecesOverCount { get; set; }
+        public string? PiecesOverDescription { get; set; }
+        public bool? RemainInContainer { get; set; }
+        public string? RemainInContainerDescription { get; set; }
+        public string? UnloadingRemarks { get; set; }
+        public DateTime? DeliveryOrderIssueDate { get; set; }
+        public DateTime? CustomsClearanceIssueDate { get; set; }
+        public Guid? CcrastatusId { get; set; }
+        public string? Ccnsuffix { get; set; }
+        public Guid? DeliveryOrderIssuerId { get; set; }
+        public bool? DockFee { get; set; }
+        public string? PalletDesc { get; set; }
+        public string? Location { get; set; }
+        public DateTime? DeliveryAppointmentDate { get; set; }
+        public Guid? DeliveryOrderAppointmentStatusId { get; set; }
+        public bool? CreatedFromData { get; set; }
+        public int? ManifestFromCode { get; set; }
+        public int? ManifestToCode { get; set; }
+        public string? WarehouseAtFinalDestinationCode { get; set; }
+        public string? PrimaryCarrierName { get; set; }
+        public DateTime? Eta { get; set; }
+        public string? CartageBy { get; set; }
+        public string? CartageByAddress { get; set; }
+        public string? CustomsBrokers { get; set; }
+        public string? CustomsBrokersAddress { get; set; }
+        public string? WarehouseAtFinalDestinationText { get; set; }
+        public bool? ActiveStatus { get; set; }
+        public DateTime? LastUpdatedOn { get; set; }
+        public Guid? UpdatedBy { get; set; }
+        public DateTime? DateCreated { get; set; }
+        public Guid? CreatedBy { get; set; }
+        public int? ProbillNo { get; set; }
+        public string? ConsigneeName { get; set; }
+        public string? ConsigneeAddress { get; set; }
+        public string? ShipperName { get; set; }
+        public string? ShipperAddress { get; set; }
+        public int? PackagePieceCount { get; set; }
+        public string? PackageDescription { get; set; }
+        public string? PackageNotes { get; set; }
+        public bool? StorageFeeGaranteed { get; set; }
+        public string? CusResReportContent { get; set; }
+        public Guid? ColoadModeId { get; set; }
+        public DateTime? CancelledManifestReceivedDate { get; set; }
+        public Guid? RemanShipmentId { get; set; }
+        public Guid? ColoadingFreightForwarderId { get; set; }
+        public bool? CustomsInspectionFeeWaved { get; set; }
+        public bool? StorageFeeWaved { get; set; }
+        public bool? CustomsInspectionFeeApplicable { get; set; }
+        public string? ShultermIssuedDeliveryNotes { get; set; }
+        public bool? CustomsInspectionFeeGaranteed { get; set; }
+        public bool? DockFeeWaved { get; set; }
+        public bool? UseShultransForTransport { get; set; }
+        public Guid? ValidDeliveryStatusId { get; set; }
+        public DateTime? AnyContainerDateIn { get; set; }
+        public bool? NoPalletExchange { get; set; }
+        public DateTime? ReleaseOrderIssueDate { get; set; }
+        public string? ReleaseOrderNotes { get; set; }
+        public Guid? ReleaseOrderIssuer { get; set; }
+
+    }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\jQuery_Ajax_CRUD_Frist.props" />
+</Project>

@@ -40,6 +40,7 @@ namespace jQuery_Ajax_CRUD.Controllers
 		}
 
 		[HttpPost]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> AddorEdit(int id, [Bind("TransactionId,AccountNumber,BeneficiaryName,BankName,SWIFTCode,Amount,Date")]TransactionModel transactionModel)
 		{
 			if (ModelState.IsValid)
@@ -65,12 +66,40 @@ namespace jQuery_Ajax_CRUD.Controllers
                     }
 
                 }
-                return Json(new { isValid = true, html = Helper.RenderRazorViewToString(this, "view-all", _context.Transactions).ToList() });
+                return Json(new { isValid = true, html = Helper.RenderRazorViewToString(this, "Index", _context.Transactions).ToList() });
             }
 
             return Json(new { isValid = false, html = Helper.RenderRazorViewToString(this, "AddOrEdit", transactionModel) });
         }
+		public async Task<IActionResult> Delete(int? id) 
+		{ 
+			if(id== null)
+			{
+				return NotFound();
+			}
+			var data =await _context.Transactions.FindAsync(id);
+			if(data == null)
+			{
+				return NotFound();
+			}
+			return View(data);
+		}
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var transactionModel = await _context.Transactions.FindAsync(id);
+            _context.Transactions.Remove(transactionModel);
+            await _context.SaveChangesAsync();
+            return Json(new { html = Helper.RenderRazorViewToString(this, "Index", _context.Transactions.ToList()) });
+        }
+
+        private bool TransactionModelExists(int id)
+        {
+            return _context.Transactions.Any(e => e.TransactionId == id);
+        }
     }
-		
 }
+		
+
 
