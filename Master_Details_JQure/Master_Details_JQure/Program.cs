@@ -13,6 +13,7 @@ builder.Services.AddScoped<IStateService, StateService>();
 builder.Services.AddScoped<ICityService,  CityService>();
 builder.Services.AddScoped<IItemService, ItemService>();
 builder.Services.AddScoped<ISupplierService, SupplierService>();
+builder.Services.AddScoped<IPurchaseService, PurchaseService>();
 
 
 var app = builder.Build();
@@ -34,6 +35,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Purchase}/{action=Index}/{id?}");
 
 app.Run();

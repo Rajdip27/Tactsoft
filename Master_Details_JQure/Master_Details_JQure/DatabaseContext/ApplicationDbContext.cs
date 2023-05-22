@@ -14,5 +14,7 @@ namespace Master_Details_JQure.DatabaseContext
         public DbSet<State> States { get; set; }
         public DbSet<Item> Items { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<PurchaseItem> PurchasesItems { get; set; }
     }
 }

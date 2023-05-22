@@ -40,14 +40,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxfVmlld0FsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Tactsoft/Master_Details_JQure/Master_Details_JQure/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Tactsoft/Master_Details_JQure/Master_Details_JQure/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/Tactsoft/Master_Details_JQure/Master_Details_JQure/Views/Item/AddorEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxBZGRvckVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +50,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Tactsoft/Master_Details_JQure/Master_Details_JQure/Views/Item/_ViewAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxfVmlld0FsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Master_Details_JQure/Master_Details_JQure/Views/Purchase/AddorEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcQWRkb3JFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Master_Details_JQure/Master_Details_JQure/Views/Purchase/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tactsoft/Master_Details_JQure/Master_Details_JQure/Views/Purchase/_ViewAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcX1ZpZXdBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Tactsoft/Master_Details_JQure/Master_Details_JQure/Views/Shared/Error.cshtml]

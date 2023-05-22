@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tVerSwKJfLuUb1eGPXHC44SFJ4Z9lJ3ep0bIXktwtuo=",
+  "Hash": "K0XRSK+THzX576r2PqSGMt+TDiHh4nEhc3S0EwMB86I=",
   "Source": "Master_Details_JQure",
   "BasePath": "_content/Master_Details_JQure",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Master_Details_JQure\\wwwroot",
       "Source": "Master_Details_JQure",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Master_Details_JQure.styles.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Master_Details_JQure.styles.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "Master_Details_JQure.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Master_Details_JQure.styles.css"
+      "OriginalItemSpec": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Master_Details_JQure.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Master_Details_JQure.bundle.scp.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Master_Details_JQure.bundle.scp.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "Master_Details_JQure.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Master_Details_JQure.bundle.scp.css"
+      "OriginalItemSpec": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Master_Details_JQure.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\css\\site.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\css\\site.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\favicon.ico",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\favicon.ico",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\City\\City.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\City\\City.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "js/City/City.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\City\\City.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\Country\\Country.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\Country\\Country.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "js/Country/Country.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Country\\Country.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\Item\\Item.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\Item\\Item.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "js/Item/Item.js",
       "AssetKind": "All",
@@ -136,10 +136,27 @@
       "OriginalItemSpec": "wwwroot\\js\\Item\\Item.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\site.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\Purchase\\Purchase.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "BasePath": "_content/Master_Details_JQure",
+      "RelativePath": "js/Purchase/Purchase.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Purchase\\Purchase.js"
+    },
+    {
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\site.js",
+      "SourceId": "Master_Details_JQure",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -153,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\State\\State.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\State\\State.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "js/State/State.js",
       "AssetKind": "All",
@@ -170,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\js\\State\\State.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\Supplier\\Supplier.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\Supplier\\Supplier.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "js/Supplier/Supplier.js",
       "AssetKind": "All",
@@ -187,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Supplier\\Supplier.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -204,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -221,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -238,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -255,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -272,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -289,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -306,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -323,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -340,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -357,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -374,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -391,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -408,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -425,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -442,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -459,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -476,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -493,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -510,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -527,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -544,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -561,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -578,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -595,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -612,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -629,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -646,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -663,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -680,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -697,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -714,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -731,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -748,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -765,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -782,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -799,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -816,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -833,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -850,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -867,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -884,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -901,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -918,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -935,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -952,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css",
       "AssetKind": "All",
@@ -969,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css",
       "AssetKind": "All",
@@ -986,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js",
       "AssetKind": "All",
@@ -1003,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js",
       "AssetKind": "All",
@@ -1020,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1037,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1054,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1071,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/jquery.js",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/jquery.min.js",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.min.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/jquery.min.map",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.slim.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/jquery.slim.js",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/jquery.slim.min.js",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/jquery.slim.min.map",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Master_Details_JQure",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Santnu\\source\\repos\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
+      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
       "BasePath": "_content/Master_Details_JQure",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

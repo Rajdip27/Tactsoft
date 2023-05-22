@@ -12,5 +12,6 @@ namespace Master_Details_JQure.Models
         public string ItemCode { get; set; }
         [Display(Name = "Discription")]
         public string Discription { get; set; }
+        public List<PurchaseItem> PurchaseItems { get; set; }
     }
 }

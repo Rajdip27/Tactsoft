@@ -33,5 +33,6 @@ namespace Master_Details_JQure.Models
         public Country Country { get; set; }
         public State State { get; set; }
         public City City { get; set; }
+        public List<Purchase> Purchases{ get; set; }
     }
 }
