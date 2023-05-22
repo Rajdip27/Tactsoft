@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Master_Details_JQure.Models.Supplier>
+<br />
+<br />
+
+<h3 class="text-center bg-info text-white"> Supplier list</h3>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PostalCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SupplierName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SupplierAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SupplierPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SupplierEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CountryId)
+            </th>
+            <th>Action</th>
+            <th>
+                <a onclick="showInPopup('@Url.Action("AddorEdit","Supplier",null,Context.Request.Scheme)','New Supplier')" class="btn  btn-primary"><i class="fa-solid fa-plus"></i> State Country</a>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostalCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SupplierName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SupplierAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SupplierPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SupplierEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country.CountryName)
+                </td>
+
+                <td>
+                    <a onclick="showInPopup('@Url.Action("AddorEdit","Supplier",new{id=item.Id},Context.Request.Scheme)','New Supplier')" class="btn btn-success"><i class="fa-solid fa-pen-to-square"></i> Edit</a> |
+                    <form asp-action="Delete" asp-route-id="@item.Id" onsubmit="return jQueryAjaxDelete(this);" class="d-inline">
+                        <input type="hidden" asp-route-id="@item.Id" />
+                        <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

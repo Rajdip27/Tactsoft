@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Master_Details_JQure.Models.Country>
+<br />
+<br />
+
+<h3 class="text-center bg-info text-white">Country List</h3>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CountryName)
+            </th>
+            <th>Action</th>
+            <th>
+                <a onclick="showInPopup('@Url.Action("AddorEdit","Country",null,Context.Request.Scheme)','New Country')" class="btn  btn-primary"><i class="fa-solid fa-plus"></i> Create Country</a>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CountryName)
+                </td>
+                <td>
+                    <a onclick="showInPopup('@Url.Action("AddorEdit","Country",new{id=item.Id},Context.Request.Scheme)','New Country')" class="btn btn-success"><i class="fa-solid fa-pen-to-square"></i> Edit</a> |
+                    <form asp-action="Delete" asp-route-id="@item.Id" onsubmit="return jQueryAjaxDelete(this);" class="d-inline">
+                        <input type="hidden" asp-route-id="@item.Id"/>
+                        <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
+                    </form>
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script src="~/js/site.js"></script>

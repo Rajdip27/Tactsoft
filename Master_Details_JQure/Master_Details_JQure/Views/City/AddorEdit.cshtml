@@ -1,0 +1,30 @@
+﻿@model Master_Details_JQure.Models.City
+@{
+    Layout = null;
+}
+
+<form asp-action="AddorEdit" asp-route-id="@Model.Id" onsubmit="return jQueryAjaxPost(this);">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input asp-for="CityName" class="form-control" placeholder="City Name" />
+                <span asp-validation-for="CityName" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-12">
+            <select asp-for="StateId" class="form-control" asp-items="@(ViewBag.StateId)">
+                <option value="">Select State</option>
+            </select>
+            <span asp-validation-for="StateId" class="text-danger"></span>
+        </div>
+    </div>
+
+    <br />
+    <div class="row">
+        <div class="d-grid gap-2">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+</form>

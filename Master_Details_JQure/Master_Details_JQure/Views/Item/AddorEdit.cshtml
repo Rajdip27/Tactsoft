@@ -1,0 +1,39 @@
+﻿@model Master_Details_JQure.Models.Item
+
+@{
+    Layout = null;
+}
+
+<form asp-action="AddorEdit" asp-route-id="@Model.Id" onsubmit="return jQueryAjaxPost(this);">
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input asp-for="ItemCode" class="form-control" placeholder="Item Code" />
+                <span asp-validation-for="ItemCode" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input asp-for="ItemName" class="form-control" placeholder="Item Name" />
+                <span asp-validation-for="ItemName" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="form-group">
+                <textarea asp-for="Discription" class="form-control" placeholder="Discription" ></textarea>
+                <span asp-validation-for="Discription" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <div class="row">
+        <div class="d-grid gap-2">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+</form>

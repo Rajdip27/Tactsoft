@@ -1,0 +1,96 @@
+﻿@model Master_Details_JQure.Models.Supplier
+
+@{
+    Layout = null;
+}
+
+<form asp-action="AddorEdit" asp-route-id="@Model.Id" onsubmit="return jQueryAjaxPost(this);">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input asp-for="PostalCode"  class="form-control" placeholder="Postal Code" />
+                <span asp-validation-for="PostalCode" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input asp-for="SupplierName" class="form-control" placeholder="Supplier Name" />
+                <span asp-validation-for="SupplierName" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input asp-for="SupplierPhone" type="number" class="form-control" placeholder="Supplier Phone No:" />
+                <span asp-validation-for="SupplierPhone" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input asp-for="SupplierEmail" type="email" class="form-control" placeholder="Supplier Email Address" />
+                <span asp-validation-for="SupplierEmail" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="rowb mt-3">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input asp-for="ContactPerson" class="form-control" placeholder="Contact Person" />
+                <span asp-validation-for="ContactPerson" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <select asp-for="CountryId" class="form-control" asp-items="@(ViewBag.CountryId)">
+                <option value="">Select Country</option>
+            </select>
+            <span asp-validation-for="CountryId" class="text-danger"></span>
+        </div>
+    </div>
+
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <select asp-for="StateId" class="form-control" asp-items="@(ViewBag.StateId)">
+                <option value="">Select State</option>
+            </select>
+            <span asp-validation-for="StateId" class="text-danger"></span>
+        </div>
+    </div>
+   
+    
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <select asp-for="CityId" class="form-control" asp-items="@(ViewBag.CityId)">
+                <option value="">Select City</option>
+            </select>
+            <span asp-validation-for="CityId" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="form-group">
+                <textarea asp-for="SupplierAddress" class="form-control" placeholder="Supplier Address"></textarea>
+                <span asp-validation-for="SupplierAddress" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <div class="row">
+        <div class="d-grid gap-2">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+</form>
