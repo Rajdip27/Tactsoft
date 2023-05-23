@@ -58,11 +58,16 @@
                     @Html.DisplayFor(modelItem => item.TotalAmount)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a onclick="showInPopup('@Url.Action("AddorEdit","Purchase",new{id=item.Id},Context.Request.Scheme)','New Item')" class="btn btn-success"><i class="fa-solid fa-pen-to-square"></i> Edit</a> |
+                    <form asp-action="Delete" asp-route-id="@item.Id" onsubmit="return jQueryAjaxDelete(this);" class="d-inline">
+                        <input type="hidden" asp-route-id="@item.Id" />
+                        <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
+                    </form>
+
                 </td>
+               
             </tr>
         }
     </tbody>
 </table>
+<script src="~/js/purchase/purchase.js"></script>
