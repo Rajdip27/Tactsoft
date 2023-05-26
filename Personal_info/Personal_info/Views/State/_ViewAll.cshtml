@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Personal_info.Models.State>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StateName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+
+            <th>Action</th>
+            <th>
+                <a onclick="statepoup('@Url.Action("AddorEdit","State",null, Context.Request.Scheme)','New State')" class="btn btn-sm btn-success">Create State</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StateName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country.CountryName)
+                </td>
+                <td>
+                    <a onclick="statepoup('@Url.Action("AddorEdit","State", new{id=item.Id},Context.Request.Scheme)','Edit Country')" class="btn btn-sm btn-primary">Edit</a> |
+                    <form asp-action="Delete" asp-route-id="@item.Id" onsubmit="return statedelete(this)" class="d-inline">
+                        <input type="hidden" asp-for="@item.Id" />
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="~/admin/state/state.js"></script>

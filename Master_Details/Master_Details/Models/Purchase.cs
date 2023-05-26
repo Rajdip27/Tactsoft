@@ -61,7 +61,7 @@ namespace Master_Details.Models
         public bool Cancle { get; set; }
         public string Remarks { get; set; } = "";
         public Supplier Supplier { get; set; }
-        public IList<PurchaseItem> PurchaseItems { get; set; }
+        public IList<PurchaseItem> PurchaseItems { get; set; }=new List<PurchaseItem>();
 
     }
 }

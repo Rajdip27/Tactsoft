@@ -37,7 +37,7 @@ jQueryAjaxPost = form => {
         console.log(ex);
     }
 }
-jQueryAjaxDelete = form => {
+jQueryAjaxDeleteI = form => {
 
     if (confirm('Are you sure to delete this record ?')) {
         try {

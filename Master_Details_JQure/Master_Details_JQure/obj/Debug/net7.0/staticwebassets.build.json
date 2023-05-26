@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K0XRSK+THzX576r2PqSGMt+TDiHh4nEhc3S0EwMB86I=",
+  "Hash": "UHrikd62I+lfAwdBnr0fUrNcijeoW6ltP/rHQaYHqC8=",
   "Source": "Master_Details_JQure",
   "BasePath": "_content/Master_Details_JQure",
   "Mode": "Default",
@@ -134,23 +134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Item\\Item.js"
-    },
-    {
-      "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\Purchase\\Purchase.js",
-      "SourceId": "Master_Details_JQure",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\",
-      "BasePath": "_content/Master_Details_JQure",
-      "RelativePath": "js/Purchase/Purchase.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Purchase\\Purchase.js"
     },
     {
       "Identity": "E:\\Tactsoft\\Master_Details_JQure\\Master_Details_JQure\\wwwroot\\js\\site.js",

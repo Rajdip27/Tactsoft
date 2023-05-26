@@ -59,7 +59,7 @@
                 </td>
                 <td>
                     <a onclick="showInPopup('@Url.Action("AddorEdit","Purchase",new{id=item.Id},Context.Request.Scheme)','New Item')" class="btn btn-success"><i class="fa-solid fa-pen-to-square"></i> Edit</a> |
-                    <form asp-action="Delete" asp-route-id="@item.Id" onsubmit="return jQueryAjaxDelete(this);" class="d-inline">
+                    <form asp-action="Delete" asp-route-id="@item.Id" onsubmit="return jQueryAjaxDeletep(this);" class="d-inline">
                         <input type="hidden" asp-route-id="@item.Id" />
                         <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
                     </form>
@@ -70,4 +70,86 @@
         }
     </tbody>
 </table>
-<script src="~/js/purchase/purchase.js"></script>
+
+<div class="modal" tabindex="-1" id="modal-form">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"> </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    showInPopup = (url, title) => {
+        $.ajax({
+            type: 'GET',
+            url: url,
+            success: function (res) {
+                $('#modal-form .modal-body').html(res);
+                $('#modal-form .modal-title').html(title);
+                $('#modal-form').modal('show');
+            }
+        })
+    }
+    jQueryAjaxPost = form => {
+        try {
+            $.ajax({
+                type: 'POST',
+                url: form.action,
+                data: new FormData(form),
+                contenttype: false,
+                processData: false,
+                success: function (res) {
+                   
+                    if (res.isVaild) {
+                        debugger;
+                        $('#view-all').html(res.html);
+                        $('#modal-form .modal-body').html('');
+                        $('#modal-form .modal-title').html('');
+                        $('#modal-form').modal('hide');
+                    } else
+                        $('#modal-form .modal-body').html(res.html);
+
+                }, error: function (err) {
+                    debugger;
+                    console.log(err);
+                }
+            })
+            debugger;
+            return false;
+
+        } catch (ex) {
+            debugger;
+            console.log(ex);
+        }
+    }
+    jQueryAjaxDelete = form => {
+
+        if (confirm('Are you sure to delete this record ?')) {
+            try {
+                $.ajax({
+                    type: 'POST',
+                    url: form.action,
+                    contenttype: false,
+                    processData: false,
+                    success: function (res) {
+                        $('#view-all').html(res.html)
+                    }, error: function (err) {
+                        console.log(err);
+                    }
+                })
+            } catch (ex) {
+                console.log(ex);
+            }
+        }
+        return false;
+    }
+</script>
+
+
+

@@ -83,7 +83,7 @@ namespace Master_Details_JQure.Controllers.Admin
                         return BadRequest(ex.Message);
                     }
                 }
-                return Json(new { isVaild = true, html = Helper.RenderRazorViewToString(this, "_Viewall", await _purchaseService.GetAllAsync()) });
+                return Json(new { isVaild = true, html = Helper.RenderRazorViewToString(this, "_ViewAll", await _purchaseService.GetAllAsync()) });
             }
             return Json(new { isVaild = false, html = Helper.RenderRazorViewToString(this, "AddorEdit", purchase) });
            

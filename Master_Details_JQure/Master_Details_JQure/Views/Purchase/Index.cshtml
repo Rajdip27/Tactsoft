@@ -1,25 +1,9 @@
 ﻿@model IEnumerable<Master_Details_JQure.Models.Purchase>
 
 <div id="show-all">
-    @await Html.PartialAsync("_Viewall",Model);
+    @await Html.PartialAsync("_ViewAll",Model);
 </div>
-<style>
-    .modal-dialog {
-        max-width:1400px;
-    }
-</style>
-<div class="modal" tabindex="-1" id="PurchaseItem">
-    <div class="modal-dialog" >
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-               
-            </div>
-           
-        </div>
-    </div>
-</div>
+
+
+
 
