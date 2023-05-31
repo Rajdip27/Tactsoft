@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JcK8aWRF+OtOTYXhE5BOJfXgq/43aGVg23+hWSu1Uho=",
+  "Hash": "A5EtiQsdB/7YAAsXAAOk4fQUmj1gbr2onPGjgzloYF4=",
   "Source": "Personal_info",
   "BasePath": "_content/Personal_info",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\Empolyee\\employee.js"
+    },
+    {
+      "Identity": "E:\\Tactsoft\\Personal_info\\Personal_info\\wwwroot\\Admin\\Progammer\\progammer.js",
+      "SourceId": "Personal_info",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tactsoft\\Personal_info\\Personal_info\\wwwroot\\",
+      "BasePath": "_content/Personal_info",
+      "RelativePath": "Admin/Progammer/progammer.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\Progammer\\progammer.js"
     },
     {
       "Identity": "E:\\Tactsoft\\Personal_info\\Personal_info\\wwwroot\\Admin\\State\\State.js",

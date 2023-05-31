@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Admin\\Empolyee\\employee.js"
     },
     {
+      "Id": "E:\\Tactsoft\\Personal_info\\Personal_info\\wwwroot\\Admin\\Progammer\\progammer.js",
+      "PackagePath": "staticwebassets\\Admin\\Progammer\\progammer.js"
+    },
+    {
       "Id": "E:\\Tactsoft\\Personal_info\\Personal_info\\wwwroot\\Admin\\State\\State.js",
       "PackagePath": "staticwebassets\\Admin\\State\\State.js"
     },
