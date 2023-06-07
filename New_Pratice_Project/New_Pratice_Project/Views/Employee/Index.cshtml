@@ -1,0 +1,63 @@
+﻿@model IEnumerable<New_Pratice_Project.ViewModel.VmEmployee>
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+<div class=" container">
+    @{
+        string message = "how are you today?";
+        int i = 1;
+        int j = 3;
+        int k = i + j;
+        <p>@message</p>
+        <div>
+        <p>you sum= @k</p>
+        </div>
+
+    }
+
+</div>
+@*<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Phone</td>
+                <td>Deperment Name</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Address</td>
+                    <td>@item.Phone</td>
+                    <td>@item.Deperment</td>
+                    
+                </tr>
+            }
+        </tbody>
+       
+
+    </table>
+
+</div>*@
+
+@*<div class="container">
+    @if (Model != null)
+    {
+        <ul class=" list-group">
+            <il class="list-group-item active">Employee Information</il>
+            <il class="list-group-item">Employee Id:<b>@Model.Id</b></il>
+            <il class="list-group-item">Name:<b>@Model.Name</b></il>
+            <il class="list-group-item">Address:<b>@Model.Address</b></il>
+            <il class="list-group-item">Phone:<b>@Model.Phone</b></il>
+            <il class="list-group-item">Deperment Name:<b>@Model.DepermentName</b></il>
+
+        </ul>
+    }
+
+</div>*@

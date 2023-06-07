@@ -12,6 +12,7 @@ namespace Master_Details_JQure.Models
         [Display(Name = "State")]
         public long StateId { get; set; }
         public State State { get; set; }
+
         public List<Supplier>Suppliers { get; set; }
     }
 }
