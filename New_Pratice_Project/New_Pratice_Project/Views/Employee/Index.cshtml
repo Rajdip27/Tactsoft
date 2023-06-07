@@ -1,10 +1,16 @@
-﻿@model IEnumerable<New_Pratice_Project.ViewModel.VmEmployee>
+﻿@model IEnumerable< New_Pratice_Project.Models.Employee>
 
 @{
     ViewData["Title"] = "Index";
 
 }
-<div class=" container">
+<a href="Employee/Create" class="btn btn-sm btn-success">Create Employee</a>
+@*<div class="row col-12 ">
+    @Html.DropDownListFor(model => model.DepermentId,ViewBag.DepermentList as SelectList,"--Select",new{@class="form-control"})
+
+</div>
+*@
+@*<div class=" container">
     @{
         string message = "how are you today?";
         int i = 1;
@@ -17,15 +23,15 @@
 
     }
 
-</div>
-@*<div class="container">
+</div>*@
+<div class="container">
     <table class="table">
         <thead>
             <tr>
                 <td>Name</td>
                 <td>Address</td>
                 <td>Phone</td>
-                <td>Deperment Name</td>
+                
             </tr>
         </thead>
         <tbody>
@@ -35,7 +41,7 @@
                     <td>@item.Name</td>
                     <td>@item.Address</td>
                     <td>@item.Phone</td>
-                    <td>@item.Deperment</td>
+                   
                     
                 </tr>
             }
@@ -44,7 +50,7 @@
 
     </table>
 
-</div>*@
+</div>
 
 @*<div class="container">
     @if (Model != null)

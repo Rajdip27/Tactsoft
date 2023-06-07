@@ -10616,11 +10616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Santnu\\Desktop\\MYFrist-Projects\\New_Pratice_Project\\New_Pratice_Project\\New_Pratice_Project.csproj",
+      "projectUniqueName": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\New_Pratice_Project.csproj",
       "projectName": "New_Pratice_Project",
-      "projectPath": "C:\\Users\\Santnu\\Desktop\\MYFrist-Projects\\New_Pratice_Project\\New_Pratice_Project\\New_Pratice_Project.csproj",
+      "projectPath": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\New_Pratice_Project.csproj",
       "packagesPath": "C:\\Users\\Santnu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Santnu\\Desktop\\MYFrist-Projects\\New_Pratice_Project\\New_Pratice_Project\\obj\\",
+      "outputPath": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

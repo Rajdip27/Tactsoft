@@ -1,0 +1,32 @@
+﻿@model New_Pratice_Project.Models.Employee
+@{
+    ViewData["Title"] = "Create";
+}
+<form asp-action="Create" asp-controller="Employee" method="post">
+    <div class="container">
+        <div class="row col-12">
+            <div class="col-md-4">
+                <label asp-for="Name" class="form-label"></label>
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Address" class="form-label"></label>
+                @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Phone" class="form-label"></label>
+                @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" })
+            </div>
+
+        </div>
+        <div class="col-md-12">
+            <label asp-for="DepermentId" class="form-label"></label>
+            @Html.DropDownListFor(model => model.DepermentId,ViewBag.depermentsList as SelectList,"--Select",new{@class="form-control"})
+        </div>
+        <button type="submit" class="btn btn-sm btn-primary mt-2">Save Employee</button>
+
+    </div>
+
+</form>
+
+
