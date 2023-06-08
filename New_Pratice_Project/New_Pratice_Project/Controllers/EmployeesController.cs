@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using New_Pratice_Project.DatabaseContext;
 using New_Pratice_Project.Models;
 using New_Pratice_Project.ViewModel;
@@ -18,7 +19,8 @@ namespace New_Pratice_Project.Controllers
         {
             List<Deperment> listDeperment=_context.Deperments.ToList();
             ViewBag.Employees = new SelectList(listDeperment,"Id","Name");
-            return View();
+            var employees = _context.Employees.Include(x=>x.Deperment);
+            return View(employees.ToList());
         }
         [HttpPost]
         public IActionResult Index(EmployeeViewModel model)
@@ -48,6 +50,19 @@ namespace New_Pratice_Project.Controllers
                return View(ex.Message);
             }
             return View(model);
+
+        }
+        [HttpPost]
+        public ActionResult DelEmployee(int EmployeeId)
+        {
+           
+            Employee emp = _context.Employees.SingleOrDefault(x => x.Id == EmployeeId);
+            if (emp != null)
+            {
+                _context.Entry(emp).State = EntityState.Deleted;
+               _context.SaveChanges();
+            }
+            return Json(emp);
 
         }
     }

@@ -1,10 +1,57 @@
-﻿@model New_Pratice_Project.ViewModel.EmployeeViewModel
+﻿@model IEnumerable<New_Pratice_Project.Models.Employee>
 
 @{
     ViewData["Title"] = "Index";
 }
+<div class=" container">
+    <table class=" table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Deperment Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Address</td>
+                    <td>@item.Phone</td>
+                    <td>@item.Deperment.Name</td>
+                    <td><a class="btn btn-danger" onclick="confirmDelete(@item.Id)"><i class="bi bi-trash"></i></a></td>
 
-<div class=" container " style="width:40%;margin-top:2%">
+                </tr>
+            }
+          
+        </tbody>
+
+    </table>
+
+</div>
+<input type="hidden" id="hiddenEmployeeId" />
+<div class="modal" tabindex="-1" id="mymodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Delete Employee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <h4> Are You Sure ? You Want to Delete this.</h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a class="btn btn-success" onclick="DeleteEmployee()">Ok</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<div class=" container " style="width:40%;margin-top:2%">
     <form id="myForm" action="Employees/Index" method="post">
         @Html.DropDownListFor(model => model.DepartmentId, ViewBag.Employees as SelectList, "--select--", new { @class = "form-control mt-2" })
 
@@ -13,27 +60,15 @@
         @Html.TextBoxFor(model => model.Address, new { @class = "form-control mt-2", @placeholder = "Address" })
 
         @Html.TextBoxFor(model => model.SiteName, new { @class = "form-control mt-2", @placeholder = "SiteName" })
+
         @Html.TextBoxFor(model => model.Phone, new { @class = "form-control mt-2", @placeholder = "Phone" })
 
         <input type="reset" value="Submit" class="btn btn-block btn-primary mt-3" id="btnSubmit" />
-        <div style="text-align:center;display:none" id="loaderDiv">
-            <img src="~/internetslowdown_day.gif" width="150" />
-        </div>
+       
     </form>
+    $("#btnSubmit").click(function () {
 
-</div>
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<script>
-    $(document).ready(function () {
 
-        $("#btnSubmit").click(function () {
-         
-            $("#loaderDiv").show();
             var data = $("#myForm").serialize();
 
             $.ajax({
@@ -42,15 +77,42 @@
                 url: "/Employees/Index",
                 data: data,
                 success: function (response) {
-                    $("#loaderDiv").hide();
+
                     alert("you are done");
                 }
 
             })
         })
 
+</div>*@
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+   
 
-    })
+    confirmDelete = function (id) {
+       
+        $('#hiddenEmployeeId').val(id);
+        $('#mymodal').modal('show');
+        console.log('hasdjhjdf')
+    }
+    DeleteEmployee = function () {
+       
+        var empId = $('#hiddenEmployeeId').val();
+        $.ajax({
+
+            type: "POST",
+            url: "/Employees/DelEmployee",
+            data: { EmployeeId: empId },
+            success: function () {
+                $('#mymodal').modal('hide');
+            }
+        })
+    }
 
 
 </script>
