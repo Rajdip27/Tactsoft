@@ -11,5 +11,6 @@ namespace New_Pratice_Project.DatabaseContext
         }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Deperment> Deperments { get; set; }
+        public DbSet<Site> Sites { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using New_Pratice_Project.DatabaseContext;
 
@@ -10,9 +11,11 @@ using New_Pratice_Project.DatabaseContext;
 namespace New_Pratice_Project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230608045534_allTable")]
+    partial class allTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,15 +49,18 @@ namespace New_Pratice_Project.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("DepermentId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -62,27 +68,6 @@ namespace New_Pratice_Project.Migrations
                     b.HasIndex("DepermentId");
 
                     b.ToTable("Employees");
-                });
-
-            modelBuilder.Entity("New_Pratice_Project.Models.Site", b =>
-                {
-                    b.Property<int>("SiteId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SiteId"));
-
-                    b.Property<int>("EmployeeId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("SiteName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("SiteId");
-
-                    b.HasIndex("EmployeeId");
-
-                    b.ToTable("Sites");
                 });
 
             modelBuilder.Entity("New_Pratice_Project.Models.Employee", b =>
@@ -96,25 +81,9 @@ namespace New_Pratice_Project.Migrations
                     b.Navigation("Deperment");
                 });
 
-            modelBuilder.Entity("New_Pratice_Project.Models.Site", b =>
-                {
-                    b.HasOne("New_Pratice_Project.Models.Employee", "Employee")
-                        .WithMany("Sites")
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
             modelBuilder.Entity("New_Pratice_Project.Models.Deperment", b =>
                 {
                     b.Navigation("Employees");
-                });
-
-            modelBuilder.Entity("New_Pratice_Project.Models.Employee", b =>
-                {
-                    b.Navigation("Sites");
                 });
 #pragma warning restore 612, 618
         }

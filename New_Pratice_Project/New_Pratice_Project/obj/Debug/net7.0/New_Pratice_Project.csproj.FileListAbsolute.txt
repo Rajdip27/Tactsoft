@@ -548,3 +548,4 @@ E:\Tactsoft\New_Pratice_Project\New_Pratice_Project\obj\Debug\net7.0\refint\New_
 E:\Tactsoft\New_Pratice_Project\New_Pratice_Project\obj\Debug\net7.0\New_Pratice_Project.pdb
 E:\Tactsoft\New_Pratice_Project\New_Pratice_Project\obj\Debug\net7.0\New_Pratice_Project.genruntimeconfig.cache
 E:\Tactsoft\New_Pratice_Project\New_Pratice_Project\obj\Debug\net7.0\ref\New_Pratice_Project.dll
+E:\Tactsoft\New_Pratice_Project\New_Pratice_Project\bin\Debug\net7.0\libman.json

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\New_Pratice_Project.bundle.scp.css"
     },
     {
+      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\InternetSlowdown_Day.gif",
+      "PackagePath": "staticwebassets\\InternetSlowdown_Day.gif"
+    },
+    {
       "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -197,52 +201,28 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
     },
     {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
     },
     {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.map"
     },
     {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.js"
     },
     {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.js"
     },
     {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "E:\\Tactsoft\\New_Pratice_Project\\New_Pratice_Project\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.map"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.New_Pratice_Project.Microsoft.AspNetCore.StaticWebAssets.props",

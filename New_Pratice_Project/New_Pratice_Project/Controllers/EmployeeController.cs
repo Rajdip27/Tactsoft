@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using New_Pratice_Project.DatabaseContext;
 using New_Pratice_Project.Models;
 using New_Pratice_Project.ViewModel;
@@ -40,8 +41,8 @@ namespace New_Pratice_Project.Controllers
         //}
         public IActionResult Index()
         {
-            List<Employee> employee = _context.Employees.ToList();
-            return View(employee);
+            var employee = _context.Employees.Include(x => x.Deperment);
+            return View(employee.ToList());
 
 
         }
