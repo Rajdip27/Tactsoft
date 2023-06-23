@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CasCading_Project.props" />
+</Project>

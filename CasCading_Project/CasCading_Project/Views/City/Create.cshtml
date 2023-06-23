@@ -1,0 +1,58 @@
+﻿@model CasCading_Project.Models.City
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class=" container">
+    <form asp-action="Create" asp-controller="City" method="post">
+
+        <div class="col-6">
+
+            <label asp-for="StateId" class="col-md-3 col-form-label"></label>
+            <div class="col-md-9">
+                <select asp-for="StateId" class="form-control" asp-items="@(ViewBag.State)" id="myDropdown">
+                    <option value="">--Select State--</option>
+                </select>
+                <span asp-validation-for="StateId" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-6">
+            @Html.LabelFor(m=>m.CtiyName,new{@class="col-md-3 col-form-label"})
+            <div class="col-md-9">
+                @* @Html.TextBoxFor(m=>m.StateName, new {@class="form-control",id="textInput"})*@
+                <input class="form-control" asp-for="CtiyName" id="myInput" />
+                <span asp-validation-for="CtiyName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <input type="submit" class="btn btn-primary" value="Save Data" />
+        </div>
+    </form>
+
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+    <script>
+
+        $('#myInput').prop('readonly', true);
+
+        $(document).ready(function () {
+            $('#myDropdown').change(function () {
+                var selectedValue = $(this).val();
+                if (selectedValue === '') {
+                    $('#myInput').prop('readonly', true);
+                } else {
+                    $('#myInput').prop('readonly', false);
+                }
+            });
+        });
+
+    </script>
+
+    }

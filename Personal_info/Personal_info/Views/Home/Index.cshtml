@@ -1,8 +1,8 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<Personal_info.Models.Country>
+<div class="md-3">
+    <label class="form-label">Choose a car:</label>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <select asp-items="@ViewBag.data">
+        
+    </select>
 </div>

@@ -2,6 +2,13 @@
     ViewData["Title"] = "Dashboard";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
+<style>
+    .border {
+        border: 10px solid rgba(255,255,255,.8) !important;
+    }
+
+    
+</style>
 
 <div class="content-wrapper">
     <div class="content-header">
@@ -23,5 +30,456 @@
         <div class="container-fluid">
         </div>
     </section>
+
+
+    <div class="row w-100">
+        <div class="col-md-12 ">
+            <div class="row">
+                <div class="col-md-8  mx-0">
+                    <div class="card p-4">
+                        <h3>Plan Preferences</h3>
+                        <p>Select the plan,the subscription and the currency that the best suits your needs.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="form-label">Plan</label>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="radio" name="plan" id="starter">
+                                    <label class="form-check-label" for="starter">Starter</label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="radio" name="plan" id="professional">
+                                    <label class="form-check-label" for="professional">Professional</label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="radio" name="plan" id="agency">
+                                    <label class="form-check-label" for="agency">Agency</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Subscription</label>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="radio" name="subscription" id="monthly">
+                                    <label class="form-check-label" for="monthly">Monthly</label>
+                                </div>
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="radio" name="subscription" id="yearly">
+                                    <label class="form-check-label" for="yearly">Yearly (Save 20%)</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="mt-2 col-4">
+                            <label class="form-label">Country</label>
+                            <select class="form-control">
+                                <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                                <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                                <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                            </select>
+                        </div>
+                        <br />
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-4  mx-0">
+                    <div class="card p-4">
+                        <h4 class="text-center">Payment Summary</h4>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-8">
+                                    <label class="form-label">Subtotal</label>
+                                </div>
+                                <div class="col-4">
+                                    <label class="form-label">$29.99</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <label class="form-label">Tax 1</label>
+                                </div>
+                                <div class="col-4">
+                                    <label class="form-label">$10</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <label class="form-label">Tax 2</label>
+                                </div>
+                                <div class="col-4">
+                                    <label class="form-label">$7.50</label>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col-8">
+                                    <label class="form-label">Total</label>
+                                </div>
+                                <div class="col-4">
+                                    <label class="form-label">$46.50</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8  mx-0">
+                <div class="card p-4">
+                    <h3>Payment Method</h3>
+                    <p class="form-label">No Credit Card Added Yet!<samp class="text-orange">  add Credit Card</samp></p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+       
+       
+
+    
+
+
+ </div>
+
+
+  @*  <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-9 border">
+                <h3>Plan Preferences</h3>
+                <p>Select the plan,the subscription and the currency that the best suits your needs.</p>
+               <div class="row">
+                    <div class="col-md-6">
+                        <label class="form-label">Plan</label>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="plan" id="starter">
+                            <label class="form-check-label" for="starter">Starter</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="plan" id="professional">
+                            <label class="form-check-label" for="professional">Professional</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="plan" id="agency">
+                            <label class="form-check-label" for="agency">Agency</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Subscription</label>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="subscription" id="monthly">
+                            <label class="form-check-label" for="monthly">Monthly</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="subscription" id="yearly">
+                            <label class="form-check-label" for="yearly">Yearly (Save 20%)</label>
+                        </div>
+                    </div>
+
+               </div>
+                    
+                
+                <div class="mt-2 col-4">
+                    <label class="form-label">Country</label>
+                    <select class="form-control">
+                        <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                        <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                        <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                    </select>
+                </div>
+                <br />
+            </div>
+
+            <div class="col-3 border">
+                <h4 class="text-center">Payment Summary</h4>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-8">
+                            <label class="form-label">Subtotal</label>
+                        </div>
+                        <div class="col-4">
+                            <label class="form-label">$29.99</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <label class="form-label">Tax 1</label>
+                        </div>
+                        <div class="col-4">
+                            <label class="form-label">$10</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <label class="form-label">Tax 2</label>
+                        </div>
+                        <div class="col-4">
+                            <label class="form-label">$7.50</label>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-8">
+                            <label class="form-label">Total</label>
+                        </div>
+                        <div class="col-4">
+                            <label class="form-label">$46.50</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 border mt-4">
+            <h3>Payment Method</h3>
+            <p class="form-label">No Credit Card Added Yet!<samp class="text-orange">  add Credit Card</samp></p>
+        </div>
+    </div>
+    
+
 </div>
+
 <script src="~/assets/js/main.js"></script>
+
+<h5 class="mb-2">Plan preferences</h5>
+<span class="text-dark" style="font-weight:400;font-size: 12px;">Select the plan, the subscription and the currency that the best suits your needs.</span>
+<div class="plan-n-subscription my-3">
+    <div class="plan float-start">
+        <h6 class="mb-2">Plan</h6>
+        <div class="form-check my-2">
+            <input class="form-check-input" type="radio" name="planRadio" value="starter" id="starterRadio">
+            <label class="form-check-label custom-radio-label" for="starterRadio">Starter</label>
+        </div>
+        <div class="form-check my-2">
+            <input class="form-check-input" type="radio" name="planRadio" value="professional" id="professionalRadio">
+            <label class="form-check-label custom-radio-label" for="professionalRadio">Professional</label>
+        </div>
+        <div class="form-check my-2">
+            <input class="form-check-input" type="radio" name="planRadio" value="agency" id="agencyRadio">
+            <label class="form-check-label custom-radio-label" for="agencyRadio">Agency</label>
+        </div>
+    </div>
+    <div class="subscription float-end">
+        <h6 class="mb-2">Subscription</h6>
+        <div class="form-check my-2">
+            <input class="form-check-input" type="radio" name="subscriptionRadio" value="monthly" id="monthlyRadio">
+            <label class="form-check-label custom-radio-label" for="monthlyRadio">Monthly</label>
+        </div>
+        <div class="form-check my-2">
+            <input class="form-check-input" type="radio" name="subscriptionRadio" value="yearly" id="yearlyRadio">
+            <label class="form-check-label custom-radio-label" for="yearlyRadio">Yearly</label>
+        </div>
+    </div>
+</div>
+@* <div class="select-currency-wrapper mt-4">
+                        <label for="currencyDropdown" class="form-label">Currency</label>
+                        <select class="form-select" id="currencyDropdown">
+                            <option value="USD"><span class="flag-icon flag-icon-us"></span> USD</option>
+                            <option value="CAD"><span class="flag-icon flag-icon-ca"></span> CAD</option>
+                            <option value="EURO"><span class="flag-icon flag-icon-eu"></span> EURO</option>
+                            <!-- Add more currency options here -->
+                        </select>
+                    </div>*@
+
+
+
+
+
+@*<div class="row w-100">
+    <div class="col-md-8 col-xl-8 mx-0">
+        <div class="card p-4">
+            <div class="row">
+                <h3>Plan Preferences</h3>
+                <p>Select the plan,the subscription and the currency that the best suits your needs.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="form-label">Plan</label>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="plan" id="starter">
+                            <label class="form-check-label" for="starter">Starter</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="plan" id="professional">
+                            <label class="form-check-label" for="professional">Professional</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="plan" id="agency">
+                            <label class="form-check-label" for="agency">Agency</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Subscription</label>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="subscription" id="monthly">
+                            <label class="form-check-label" for="monthly">Monthly</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="subscription" id="yearly">
+                            <label class="form-check-label" for="yearly">Yearly (Save 20%)</label>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="mt-2 col-4">
+                    <label class="form-label">Country</label>
+                    <select class="form-control">
+                        <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                        <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                        <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                    </select>
+                </div>
+                <br />
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-8 col-xl-8 mx-0">
+        <div class="card p-4">
+            <h4 class="text-center">Payment Summary</h4>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-8">
+                        <label class="form-label">Subtotal</label>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">$29.99</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <label class="form-label">Tax 1</label>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">$10</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <label class="form-label">Tax 2</label>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">$7.50</label>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-8">
+                        <label class="form-label">Total</label>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">$46.50</label>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+</div>
+
+*@
+
+
+
+
+
+
+
+@*<div class="row w-100">
+    <div class="col-md-8 col-xl-8 mx-0">
+        <div class="card p-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Plan Preferences</h3>
+                    <p>Select the plan,the subscription and the currency that the best suits your needs.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="form-label">Plan</label>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="radio" name="plan" id="starter">
+                                <label class="form-check-label" for="starter">Starter</label>
+                            </div>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="radio" name="plan" id="professional">
+                                <label class="form-check-label" for="professional">Professional</label>
+                            </div>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="radio" name="plan" id="agency">
+                                <label class="form-check-label" for="agency">Agency</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Subscription</label>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="radio" name="subscription" id="monthly">
+                                <label class="form-check-label" for="monthly">Monthly</label>
+                            </div>
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="radio" name="subscription" id="yearly">
+                                <label class="form-check-label" for="yearly">Yearly (Save 20%)</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mt-2 col-4">
+                        <label class="form-label">Country</label>
+                        <select class="form-control">
+                            <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                            <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                            <option><img src="~/photo.jpg" alt="Girl in a jacket" class="rounded-circle"> USA</option>
+                        </select>
+                    </div>
+                    <br />
+                </div>
+
+
+                <div class="col-md-4 mx-0">
+                    <h4 class="text-center">Payment Summary</h4>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-8">
+                                <label class="form-label">Subtotal</label>
+                            </div>
+                            <div class="col-4">
+                                <label class="form-label">$29.99</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <label class="form-label">Tax 1</label>
+                            </div>
+                            <div class="col-4">
+                                <label class="form-label">$10</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <label class="form-label">Tax 2</label>
+                            </div>
+                            <div class="col-4">
+                                <label class="form-label">$7.50</label>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <div class="col-8">
+                                <label class="form-label">Total</label>
+                            </div>
+                            <div class="col-4">
+                                <label class="form-label">$46.50</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>*@

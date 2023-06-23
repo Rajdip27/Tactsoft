@@ -1,0 +1,144 @@
+﻿@model CasCading_Project.Models.StudentInfo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <form>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.LabelFor(m=>m.StudentName,new{@class="col-md-3 col-form-label"})
+
+                    @* @Html.TextBoxFor(m=>m.StateName, new {@class="form-control",id="textInput"})*@
+                    <input class="form-control" asp-for="StudentName" id="myInput" />
+                    <span asp-validation-for="StudentName" class="text-danger"></span>
+
+                </div>
+
+                <div class="col-md-6">
+                    @Html.LabelFor(m=>m.FatherName,new{@class="col-md-3 col-form-label"})
+                    <input class="form-control" asp-for="FatherName" id="myInput" />
+                    <span asp-validation-for="FatherName" class="text-danger"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.LabelFor(m=>m.MotherName,new{@class="col-md-3 col-form-label"})
+
+                   
+                    <input class="form-control" asp-for="MotherName" id="myInput" />
+                    <span asp-validation-for="MotherName" class="text-danger"></span>
+
+                </div>
+
+                <div class="col-md-6">
+                    @Html.LabelFor(m=>m.Email,new{@class="col-md-3 col-form-label"})
+                    <input type="email" class="form-control" asp-for="Email" id="myInput" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.LabelFor(m=>m.Phone,new{@class="col-md-3 col-form-label"})
+
+                   
+                    <input class="form-control" asp-for="Phone" id="myInput" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+
+                </div>
+
+                <div class="col-md-6">
+                    @Html.LabelFor(m=>m.DateOfBirth,new{@class="col-md-3 col-form-label"})
+                    <input type="date" class="form-control" asp-for="DateOfBirth" id="myInput" />
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-6">
+
+                    <label  class=" col-form-label">Country</label>
+
+                    <select asp-for="CountryId" class="form-control" id="countryDropdown"></select>
+                    <span asp-validation-for="CountryId" class="text-danger"></span>
+                   
+                </div>
+                <div class="col-6">
+
+                    <label  class=" col-form-label">State</label>
+
+                    <select asp-for="StateId" class="form-control" id="stateDropdown">
+                           
+                        </select>
+                    <span asp-validation-for="StateId" class="text-danger"></span>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-6">
+
+                    <label class=" col-form-label">City</label>
+
+                    <select asp-for="CityId" class="form-control" asp-items="@(ViewBag.State)" id="myDropdown">
+                        <option value="">--Select City--</option>
+                    </select>
+                    <span asp-validation-for="CityId" class="text-danger"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="mt-2">
+            <button type="submit"  class="btn btn-primary">Save Student</button>
+
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+    <script>
+
+        $(document).ready(function () {
+
+            $.get('/Student/GetCountry', function (data) {
+
+                $.each(data, function (index, country) {
+                    debugger;
+                    $('#countryDropdown').append($('<option>', {
+                        value: country.id,
+                        text: country.countryName
+                    }));
+                });
+            });
+
+            $.get('/Student/GetState',{ id:1  } function (data) {
+
+                $.each(data, function (index, state) {
+                    debugger;
+                    $('#stateDropdown').append($('<option>', {
+                        value: state.id,
+                        text: state.stateName
+                    }));
+                });
+            });
+        });
+
+    </script>
+
+    }
+

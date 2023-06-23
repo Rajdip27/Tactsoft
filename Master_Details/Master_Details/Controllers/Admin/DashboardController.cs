@@ -8,5 +8,10 @@ namespace Master_Details.Controllers.Admin
         {
             return View();
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+
     }
 }
