@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CF2463FE-2C3B-4572-99B8-C95D37FC4498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{7AEE61E7-1038-4064-997D-47D783CFBBF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A7102F65-1522-4299-BE8C-4F2D2290EDD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tactsoft.App", "Tactsoft.App\Tactsoft.App.csproj", "{610B0499-B670-448E-8F90-1D7ADC3A6E32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tactsoft.Domain", "Tactsoft.Domain\Tactsoft.Domain.csproj", "{18A19CBB-F29B-4462-BF75-8C7CA0AD04C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tactsoft.Infrastructure", "Tactsoft.Infrastructure\Tactsoft.Infrastructure.csproj", "{5552560C-826F-47A8-BE7E-8818F84AE567}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tactsoft.Application", "Tactsoft.Application\Tactsoft.Application.csproj", "{6822DF79-4F01-4B0C-BAF1-B3B9E02D2566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610B0499-B670-448E-8F90-1D7ADC3A6E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610B0499-B670-448E-8F90-1D7ADC3A6E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610B0499-B670-448E-8F90-1D7ADC3A6E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610B0499-B670-448E-8F90-1D7ADC3A6E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A19CBB-F29B-4462-BF75-8C7CA0AD04C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A19CBB-F29B-4462-BF75-8C7CA0AD04C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A19CBB-F29B-4462-BF75-8C7CA0AD04C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A19CBB-F29B-4462-BF75-8C7CA0AD04C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5552560C-826F-47A8-BE7E-8818F84AE567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5552560C-826F-47A8-BE7E-8818F84AE567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5552560C-826F-47A8-BE7E-8818F84AE567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5552560C-826F-47A8-BE7E-8818F84AE567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6822DF79-4F01-4B0C-BAF1-B3B9E02D2566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6822DF79-4F01-4B0C-BAF1-B3B9E02D2566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6822DF79-4F01-4B0C-BAF1-B3B9E02D2566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6822DF79-4F01-4B0C-BAF1-B3B9E02D2566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AEE61E7-1038-4064-997D-47D783CFBBF3} = {CF2463FE-2C3B-4572-99B8-C95D37FC4498}
+		{A7102F65-1522-4299-BE8C-4F2D2290EDD9} = {CF2463FE-2C3B-4572-99B8-C95D37FC4498}
+		{610B0499-B670-448E-8F90-1D7ADC3A6E32} = {7AEE61E7-1038-4064-997D-47D783CFBBF3}
+		{18A19CBB-F29B-4462-BF75-8C7CA0AD04C8} = {A7102F65-1522-4299-BE8C-4F2D2290EDD9}
+		{5552560C-826F-47A8-BE7E-8818F84AE567} = {A7102F65-1522-4299-BE8C-4F2D2290EDD9}
+		{6822DF79-4F01-4B0C-BAF1-B3B9E02D2566} = {A7102F65-1522-4299-BE8C-4F2D2290EDD9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84E79F5B-9720-4D86-A7FE-85A14B9BC3D4}
+	EndGlobalSection
+EndGlobal
