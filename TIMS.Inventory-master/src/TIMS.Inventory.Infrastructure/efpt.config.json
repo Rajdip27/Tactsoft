@@ -1,0 +1,67 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "TIMSContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "TIMS.Inventory.Infrastructure",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[CardEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[open_qty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QuanIT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RuanIT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VoucherType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[YearInfo]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "81d12a3a284c.TIMS.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
